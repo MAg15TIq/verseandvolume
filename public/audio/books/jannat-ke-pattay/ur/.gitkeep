@@ -1,0 +1,16 @@
+# Audio Files Directory for Jannat Ke Pattay
+
+This directory is ready for audiobook files. Add the following files:
+
+- chapter-01.mp3 (باب اول - شروعات)
+- chapter-02.mp3 (باب دوم - پہلی ملاقات)
+- chapter-03.mp3 (باب سوم - دوستی)
+- chapter-04.mp3 (باب چہارم - مسائل)
+- chapter-05.mp3 (باب پنجم - فیصلہ)
+- chapter-06.mp3 (باب ششم - الوداع)
+- chapter-07.mp3 (باب ہفتم - نئی زندگی)
+- chapter-08.mp3 (باب ہشتم - سبق)
+- epilogue.mp3 (اختتام)
+- full.mp3 (optional - complete audiobook)
+
+See AUDIOBOOK_SETUP.md for detailed instructions.

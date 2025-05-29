@@ -1,0 +1,17 @@
+# Author Images Directory
+
+This directory contains profile images for authors featured on the website.
+
+## Organization:
+- Use author ID as the filename (e.g., `william-shakespeare.jpg`)
+- Supported formats: JPG, PNG, WebP
+- Recommended sizes:
+  - Thumbnail: 150x150px
+  - Medium: 300x300px  
+  - Large: 600x600px
+
+## Naming Convention:
+- `{author-id}.jpg` - Main profile image
+- `{author-id}-thumb.jpg` - Thumbnail version
+- `{author-id}-medium.jpg` - Medium size version
+- `{author-id}-large.jpg` - Large size version

@@ -1,0 +1,90 @@
+import { Book } from '@/types';
+
+export const jamesJoyceProse: Book[] = [
+  {
+    id: 'joyce-araby-excerpts',
+    title: 'Araby (Excerpts)',
+    author: 'James Joyce',
+    authorId: 'james-joyce',
+    coverImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/James_Joyce_by_Alex_Ehrenzweig%2C_1915_cropped.jpg/330px-James_Joyce_by_Alex_Ehrenzweig%2C_1915_cropped.jpg',
+    publishYear: 1914,
+    language: 'en',
+    genre: ['Short Story', 'Modernist Literature', 'Coming of Age'],
+    description: 'Selected passages from Joyce\'s evocative short story about youth and disillusionment.',
+    excerpt: [
+      "North Richmond Street, being blind, was a quiet street except at the hour when the Christian Brothers' School set the boys free.",
+      "An uninhabited house of two storeys stood at the blind end, detached from its neighbours in a square ground.",
+      "The other houses of the street, conscious of decent lives within them, gazed at one another with brown imperturbable faces."
+    ],
+    content: [
+      "North Richmond Street, being blind, was a quiet street except at the hour when the Christian Brothers' School set the boys free.",
+      "",
+      "An uninhabited house of two storeys stood at the blind end, detached from its neighbours in a square ground.",
+      "",
+      "The other houses of the street, conscious of decent lives within them, gazed at one another with brown imperturbable faces.",
+      "",
+      "The former tenant of our house, a priest, had died in the back drawing-room.",
+      "",
+      "Air, musty from having been long enclosed, hung in all the rooms, and the waste room behind the kitchen was littered with old useless papers.",
+      "",
+      "Among these I found a few paper-covered books, the pages of which were curled and damp: The Abbot, by Walter Scott, The Devout Communicant and The Memoirs of Vidocq.",
+      "",
+      "I liked the last best because its leaves were yellow.",
+      "",
+      "The wild garden behind the house contained a central apple-tree and a few straggling bushes under one of which I found the late tenant's rusty bicycle-pump.",
+      "",
+      "He had been a very charitable priest; in his will he had left all his money to institutions and the furniture of his house to his sister.",
+      "",
+      "When the short days of winter came dusk fell before we had well eaten our dinners.",
+      "",
+      "When we met in the street the houses had grown sombre.",
+      "",
+      "The space of sky above us was the colour of ever-changing violet and towards it the lamps of the street lifted their feeble lanterns.",
+      "",
+      "The cold air stung us and we played till our bodies glowed.",
+      "",
+      "Our shouts echoed in the silent street."
+    ],
+    hasFullContent: true
+  },
+  {
+    id: 'joyce-dead-excerpts',
+    title: 'The Dead (Excerpts)',
+    author: 'James Joyce',
+    authorId: 'james-joyce',
+    coverImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/James_Joyce_by_Alex_Ehrenzweig%2C_1915_cropped.jpg/330px-James_Joyce_by_Alex_Ehrenzweig%2C_1915_cropped.jpg',
+    publishYear: 1914,
+    language: 'en',
+    genre: ['Short Story', 'Modernist Literature', 'Epiphany'],
+    description: 'Selected passages from Joyce\'s masterful story about love, memory, and mortality.',
+    excerpt: [
+      "Snow was general all over Ireland.",
+      "It was falling on every part of the dark central plain, on the treeless hills, falling softly upon the Bog of Allen and, farther westward, softly falling into the dark mutinous Shannon waves.",
+      "It was falling, too, upon every part of the lonely churchyard on the hill where Michael Furey lay buried."
+    ],
+    content: [
+      "Snow was general all over Ireland.",
+      "",
+      "It was falling on every part of the dark central plain, on the treeless hills, falling softly upon the Bog of Allen and, farther westward, softly falling into the dark mutinous Shannon waves.",
+      "",
+      "It was falling, too, upon every part of the lonely churchyard on the hill where Michael Furey lay buried.",
+      "",
+      "It lay thickly drifted on the crooked crosses and headstones, on the spears of the little gate, on the barren thorns.",
+      "",
+      "His soul swooned slowly as he heard the snow falling faintly through the universe and faintly falling, like the descent of their last end, upon all the living and the dead.",
+      "",
+      "The time had come for him to set out on his journey westward.",
+      "",
+      "Yes, the newspapers were right: snow was general all over Ireland.",
+      "",
+      "It was falling on every part of the dark central plain, on the treeless hills, falling softly upon the Bog of Allen and, farther westward, softly falling into the dark mutinous Shannon waves.",
+      "",
+      "It was falling, too, upon every part of the lonely churchyard on the hill where Michael Furey lay buried.",
+      "",
+      "It lay thickly drifted on the crooked crosses and headstones, on the spears of the little gate, on the barren thorns.",
+      "",
+      "His soul swooned slowly as he heard the snow falling faintly through the universe and faintly falling, like the descent of their last end, upon all the living and the dead."
+    ],
+    hasFullContent: true
+  }
+];

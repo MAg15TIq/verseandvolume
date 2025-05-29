@@ -1,0 +1,17 @@
+# Audio Files Directory for Khuda Aur Mohabbat
+
+This directory is ready for audiobook files. Add the following files:
+
+- chapter-01.mp3 (باب اول - ہارون)
+- chapter-02.mp3 (باب دوم - پہلی ملاقات)
+- chapter-03.mp3 (باب سوم - محبت کا احساس)
+- chapter-04.mp3 (باب چہارم - تبدیلی کا فیصلہ)
+- chapter-05.mp3 (باب پنجم - سچی تبدیلی)
+- chapter-06.mp3 (باب ششم - شادی)
+- chapter-07.mp3 (باب ہفتم - نئی زندگی)
+- chapter-08.mp3 (باب ہشتم - امتحان)
+- chapter-09.mp3 (باب نہم - اولاد)
+- epilogue.mp3 (اختتام)
+- full.mp3 (optional - complete audiobook)
+
+See AUDIOBOOK_SETUP.md for detailed instructions.

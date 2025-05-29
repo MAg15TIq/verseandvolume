@@ -1,0 +1,29 @@
+# Audiobooks Directory
+
+This directory contains audio files for books and novels.
+
+## Organization:
+- Create subdirectories for each book using book ID
+- Support for multiple languages (en/ur subdirectories)
+- Chapter-based organization for long works
+
+## Structure:
+```
+books/
+├── {book-id}/
+│   ├── en/
+│   │   ├── full.mp3 (complete audiobook)
+│   │   ├── chapter-01.mp3
+│   │   ├── chapter-02.mp3
+│   │   └── ...
+│   └── ur/
+│       ├── full.mp3
+│       ├── chapter-01.mp3
+│       └── ...
+```
+
+## Supported Formats:
+- MP3 (recommended)
+- WAV
+- OGG
+- AAC

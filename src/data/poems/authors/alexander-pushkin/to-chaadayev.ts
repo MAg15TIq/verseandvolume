@@ -1,0 +1,41 @@
+import { Poem } from '@/types';
+
+export const toChaaadayevPoem: Poem = {
+  id: 'to-chaadayev',
+  title: 'To Chaadayev',
+  author: 'Alexander Pushkin',
+  authorId: 'alexander-pushkin',
+  year: 1818,
+  language: 'en',
+  type: 'poem',
+  content: [
+    "Love, hope, and quiet fame",
+    "Did not long delude us;",
+    "Like morning mists they came",
+    "And vanished as youth does.",
+    "",
+    "But still within us burns",
+    "Desire beneath oppression;",
+    "We hearken and we yearn",
+    "For freedom's call, dear friend.",
+    "",
+    "We wait with hope and yearning",
+    "For freedom's sacred hour,",
+    "As young lovers burning",
+    "Wait for love's sweet power.",
+    "",
+    "While freedom's fire burns bright,",
+    "While hearts for honor beat,",
+    "My friend, to our country's plight",
+    "Let's dedicate our souls complete.",
+    "",
+    "Believe, my friend: the star",
+    "Of captivating happiness will rise,",
+    "Russia will wake from her long sleep,",
+    "And on the ruins of autocracy",
+    "Our names will be inscribed!"
+  ],
+  themes: ['Freedom', 'Patriotism', 'Hope', 'Political Change'],
+  explanation: 'This poem is addressed to Pushkin\'s friend Pyotr Chaadayev and expresses hope for political freedom and reform in Russia.',
+  hasAudio: false
+};

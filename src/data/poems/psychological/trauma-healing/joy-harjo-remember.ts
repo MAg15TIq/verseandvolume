@@ -1,0 +1,51 @@
+import { Poem } from '@/types';
+
+export const joyHarjoRemember: Poem = {
+  id: 'joy-harjo-remember',
+  title: 'Remember',
+  author: 'Joy Harjo',
+  authorId: 'joy-harjo',
+  year: 1983,
+  language: 'en',
+  type: 'poem',
+  content: [
+    "Remember the sky that you were born under,",
+    "know each of the star's stories.",
+    "Remember the moon, know who she is.",
+    "Remember the sun's birth at dawn, that is the",
+    "strongest point of time. Remember sundown",
+    "and the giving away to night.",
+    "Remember your birth, how your mother struggled",
+    "to give you form and breath. You are evidence of",
+    "her life, and her mother's, and hers.",
+    "Remember your father. He is your life, also.",
+    "Remember the earth whose skin you are:",
+    "red earth, black earth, yellow earth, white earth",
+    "brown earth, we are earth.",
+    "Remember the plants, trees, animal life who all have their",
+    "tribes, their families, their histories, too. Talk to them,",
+    "listen to them. They are alive poems.",
+    "Remember the wind. Remember her voice. She knows the",
+    "origin of this universe.",
+    "Remember you are all people and all people",
+    "are you.",
+    "Remember you are this universe and this",
+    "universe is you.",
+    "Remember all is in motion, is growing, is you.",
+    "Remember language comes from this.",
+    "Remember the dance language is, that life is.",
+    "Remember."
+  ],
+  explanation: "This powerful poem by Native American poet Joy Harjo offers a framework for psychological healing through connection and remembrance. The repetitive use of 'Remember' creates a meditative, therapeutic rhythm that helps process trauma through reconnection with ancestral wisdom, nature, and universal belonging. The poem addresses intergenerational trauma while providing a path to healing through spiritual and psychological reconnection. It demonstrates how remembering one's place in the larger web of existence can be profoundly healing for psychological wounds.",
+  themes: [
+    'Healing Through Connection',
+    'Intergenerational Trauma',
+    'Ancestral Wisdom',
+    'Spiritual Psychology',
+    'Nature Therapy',
+    'Cultural Healing',
+    'Universal Belonging',
+    'Meditative Practice'
+  ],
+  hasAudio: false
+};

@@ -1,0 +1,61 @@
+import { Poem } from '@/types';
+
+export const sitaronSeAageGhazal: Poem = {
+  id: 'sitaron-se-aage-jahan-aur-bhi-hain',
+  title: 'ستاروں سے آگے جہاں اور بھی ہیں',
+  author: 'Allama Muhammad Iqbal',
+  authorId: 'allama-iqbal',
+  year: 1927,
+  language: 'ur',
+  type: 'ghazal',
+  content: [
+    "ستاروں سے آگے جہاں اور بھی ہیں",
+    "ابھی عشق کے امتحان اور بھی ہیں",
+    "",
+    "تہی زندگی سے نہیں یہ فضائیں",
+    "یہاں آبیاں اور بھی، گلستان اور بھی ہیں",
+    "",
+    "اگر کھو گیا اک نشیمن تو کیا غم",
+    "مقامات عشق میں مکان اور بھی ہیں",
+    "",
+    "تو شاہین ہے پرواز ہے کام تیرا",
+    "تیرے سامنے آسمان اور بھی ہیں",
+    "",
+    "اسی روز و شب میں اُلجھ کر نہ رہ جا",
+    "کہ تیرے زمان و مکان اور بھی ہیں",
+    "",
+    "گزر جا اس آبادی سے کہ اقبال",
+    "یہاں عاشقوں کے نشان اور بھی ہیں",
+    "",
+    "نہ ڈر اے پرندے کہ اڑنا ہے تجھ کو",
+    "ابھی آشیان اور بھی، آسمان اور بھی ہیں"
+  ],
+  translation: {
+    en: [
+      "Beyond the stars, there are other worlds too",
+      "There are still other trials of love",
+      "",
+      "These spaces are not empty of life",
+      "Here there are other gardens, other paradises too",
+      "",
+      "If one nest is lost, what is the sorrow?",
+      "In the stations of love, there are other dwellings too",
+      "",
+      "You are an eagle, flight is your work",
+      "Before you there are other skies too",
+      "",
+      "Don't get entangled in this day and night alone",
+      "For you there are other times and places too",
+      "",
+      "Pass through this settlement, O Iqbal",
+      "Here there are other signs of lovers too",
+      "",
+      "Don't fear, O bird, that you have to fly",
+      "There are still other nests, other skies too"
+    ]
+  },
+  explanation: "This is one of Iqbal's most inspiring ghazals that encourages the human spirit to transcend limitations and explore infinite possibilities. It speaks to the boundless nature of existence and the endless journey of the soul. The ghazal motivates readers to not be confined by current circumstances but to aspire for higher realms of experience and consciousness.",
+  themes: ['Aspiration', 'Transcendence', 'Infinite Possibilities', 'Spiritual Journey', 'Hope', 'Freedom'],
+  hasAudio: true,
+  audioUrl: '/audio/sitaron-se-aage-iqbal.mp3'
+};

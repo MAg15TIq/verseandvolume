@@ -1,0 +1,17 @@
+# Book Cover Images Directory
+
+This directory contains cover images for books, novels, and literary works.
+
+## Organization:
+- Use book ID as the filename (e.g., `pride-and-prejudice.jpg`)
+- Supported formats: JPG, PNG, WebP
+- Recommended sizes:
+  - Thumbnail: 200x300px
+  - Medium: 400x600px
+  - Large: 800x1200px
+
+## Naming Convention:
+- `{book-id}.jpg` - Main cover image
+- `{book-id}-thumb.jpg` - Thumbnail version
+- `{book-id}-medium.jpg` - Medium size version
+- `{book-id}-large.jpg` - Large size version

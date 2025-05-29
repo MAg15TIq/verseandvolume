@@ -1,0 +1,118 @@
+{
+  "total": 9,
+  "withExternalUrls": 6,
+  "withLocalPaths": 3,
+  "withWorkingCovers": 1,
+  "withBrokenCovers": 5,
+  "missingCovers": 3,
+  "books": [
+    {
+      "id": "pride-and-prejudice",
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "coverImage": "https://upload.wikimedia.org/wikipedia/commons/1/17/PrideAndPrejudiceTitlePage.jpg",
+      "status": "broken",
+      "type": "external",
+      "exists": false,
+      "accessible": false,
+      "fileSize": null,
+      "error": null
+    },
+    {
+      "id": "the-notebook",
+      "title": "The Notebook",
+      "author": "Nicholas Sparks",
+      "coverImage": "https://upload.wikimedia.org/wikipedia/en/8/86/Thenotebook.jpg",
+      "status": "broken",
+      "type": "external",
+      "exists": false,
+      "accessible": false,
+      "fileSize": null,
+      "error": null
+    },
+    {
+      "id": "crime-and-punishment-dostoevsky",
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "coverImage": "https://upload.wikimedia.org/wikipedia/en/4/4b/Crimeandpunishmentcover.png",
+      "status": "working",
+      "type": "external",
+      "exists": false,
+      "accessible": true,
+      "fileSize": null,
+      "error": null
+    },
+    {
+      "id": "alice-adventures-in-wonderland",
+      "title": "Alice's Adventures in Wonderland",
+      "author": "Lewis Carroll",
+      "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Alice%27s_Adventures_in_Wonderland_-_Lewis_Carroll_-_John_Tenniel_-_1865.jpg/256px-Alice%27s_Adventures_in_Wonderland_-_Lewis_Carroll_-_John_Tenniel_-_1865.jpg",
+      "status": "broken",
+      "type": "external",
+      "exists": false,
+      "accessible": false,
+      "fileSize": null,
+      "error": null
+    },
+    {
+      "id": "khuda-aur-mohabbat",
+      "title": "خدا اور محبت",
+      "author": "Hashim Nadeem",
+      "coverImage": "https://upload.wikimedia.org/wikipedia/en/a/a9/Khuda_Aur_Mohabbat_Cover.jpg",
+      "status": "broken",
+      "type": "external",
+      "exists": false,
+      "accessible": false,
+      "fileSize": null,
+      "error": null
+    },
+    {
+      "id": "bachpan-ka-december",
+      "title": "بچپن کا دسمبر",
+      "author": "Hashim Nadeem",
+      "coverImage": "https://upload.wikimedia.org/wikipedia/en/a/a5/Bachpan_Ka_December_Cover.jpg",
+      "status": "broken",
+      "type": "external",
+      "exists": false,
+      "accessible": false,
+      "fileSize": null,
+      "error": null
+    },
+    {
+      "id": "mere-humdam-mere-dost",
+      "title": "میرے ہمدم میرے دوست",
+      "author": "Effat Sehar",
+      "coverImage": "/images/covers/mere-humdam-mere-dost.jpg",
+      "status": "missing",
+      "type": "local",
+      "exists": false,
+      "accessible": false,
+      "fileSize": null,
+      "error": null
+    },
+    {
+      "id": "kuch-ishq-tha-kuch-majazi",
+      "title": "کچھ عشق تھا کچھ مجازی",
+      "author": "Effat Sehar",
+      "coverImage": "/images/covers/kuch-ishq-tha-kuch-majazi.jpg",
+      "status": "missing",
+      "type": "local",
+      "exists": false,
+      "accessible": false,
+      "fileSize": null,
+      "error": null
+    },
+    {
+      "id": "dil-se-dil-tak",
+      "title": "دل سے دل تک",
+      "author": "Amna Riaz",
+      "coverImage": "/images/covers/dil-se-dil-tak.jpg",
+      "status": "missing",
+      "type": "local",
+      "exists": false,
+      "accessible": false,
+      "fileSize": null,
+      "error": null
+    }
+  ]
+}

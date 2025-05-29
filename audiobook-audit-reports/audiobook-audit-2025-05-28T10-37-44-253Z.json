@@ -1,0 +1,1120 @@
+{
+  "timestamp": "2025-05-28T10:37:44.224Z",
+  "summary": {
+    "totalNovels": 18,
+    "audiobooksConfigured": 3,
+    "audiobooksWithFiles": 1,
+    "totalAudioFiles": 42,
+    "playerFunctional": true
+  },
+  "novelAudit": {
+    "totalNovels": 18,
+    "audiobooksConfigured": 3,
+    "partiallyConfigured": 15,
+    "missingConfiguration": 0,
+    "novels": [
+      {
+        "id": "raja-gidh",
+        "title": "راجا گدھ",
+        "author": "Bano Qudsia",
+        "filePath": "D:\\verse-and-volume\\src\\data\\novels\\authors\\bano-qudsia\\raja-gidh.ts",
+        "audioProperties": {
+          "hasAudio": "true",
+          "audioUrl": "'/audio/raja-gidh-full.mp3'"
+        },
+        "audiobookStatus": "partially-configured",
+        "issues": [
+          "Missing 4 audiobook properties"
+        ]
+      },
+      {
+        "id": "diyar-e-dil",
+        "title": "دیار دل",
+        "author": "Farhat Ishtiaq",
+        "filePath": "D:\\verse-and-volume\\src\\data\\novels\\authors\\farhat-ishtiaq\\diyar-e-dil.ts",
+        "audioProperties": {
+          "hasAudio": "true",
+          "audioUrl": "'/audio/diyar-e-dil-full.mp3'"
+        },
+        "audiobookStatus": "partially-configured",
+        "issues": [
+          "Missing 4 audiobook properties"
+        ]
+      },
+      {
+        "id": "humsafar",
+        "title": "ہمسفر",
+        "author": "Farhat Ishtiaq",
+        "filePath": "D:\\verse-and-volume\\src\\data\\novels\\authors\\farhat-ishtiaq\\humsafar.ts",
+        "audioProperties": {
+          "hasAudio": "true",
+          "audioUrl": "'/audio/humsafar-full.mp3'"
+        },
+        "audiobookStatus": "partially-configured",
+        "issues": [
+          "Missing 4 audiobook properties"
+        ]
+      },
+      {
+        "id": "crime-and-punishment-dostoevsky",
+        "title": "Crime and Punishment",
+        "author": "Fyodor Dostoevsky",
+        "filePath": "D:\\verse-and-volume\\src\\data\\novels\\authors\\fyodor-dostoevsky\\crime-and-punishment.ts",
+        "audioProperties": {
+          "hasAudio": "true",
+          "isAudiobook": "true",
+          "audioUrl": "Using individual chapter files instead of a single full file",
+          "audioDuration": "82800",
+          "narrator": "'LibriVox Community'",
+          "audioQuality": "'high'",
+          "hasChapters": true,
+          "chapterCount": 41
+        },
+        "audiobookStatus": "fully-configured",
+        "issues": []
+      },
+      {
+        "id": "khuda-aur-mohabbat",
+        "title": "خدا اور محبت",
+        "author": "Hashim Nadeem",
+        "filePath": "D:\\verse-and-volume\\src\\data\\novels\\authors\\hashim-nadeem\\khuda-aur-mohabbat.ts",
+        "audioProperties": {
+          "hasAudio": "true",
+          "audioUrl": "'/audio/khuda-aur-mohabbat-full.mp3'"
+        },
+        "audiobookStatus": "partially-configured",
+        "issues": [
+          "Missing 4 audiobook properties"
+        ]
+      },
+      {
+        "id": "pani-da-rang",
+        "title": "پانی دا رنگ",
+        "author": "Hashim Nadeem",
+        "filePath": "D:\\verse-and-volume\\src\\data\\novels\\authors\\hashim-nadeem\\pani-da-rang.ts",
+        "audioProperties": {
+          "hasAudio": "true",
+          "audioUrl": "'/audio/pani-da-rang-full.mp3'"
+        },
+        "audiobookStatus": "partially-configured",
+        "issues": [
+          "Missing 4 audiobook properties"
+        ]
+      },
+      {
+        "id": "pride-and-prejudice",
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "filePath": "D:\\verse-and-volume\\src\\data\\novels\\authors\\jane-austen\\pride-and-prejudice.ts",
+        "audioProperties": {
+          "hasAudio": "true",
+          "isAudiobook": "true",
+          "audioUrl": "'/audio/books/pride-and-prejudice/en/full.mp3'",
+          "audioDuration": "43200",
+          "narrator": "'Karen Savage'",
+          "audioQuality": "'high'"
+        },
+        "audiobookStatus": "fully-configured",
+        "issues": []
+      },
+      {
+        "id": "me-before-you",
+        "title": "Me Before You",
+        "author": "Jojo Moyes",
+        "filePath": "D:\\verse-and-volume\\src\\data\\novels\\authors\\jojo-moyes\\me-before-you.ts",
+        "audioProperties": {
+          "hasAudio": "true",
+          "audioUrl": "'/audio/me-before-you-full.mp3'"
+        },
+        "audiobookStatus": "partially-configured",
+        "issues": [
+          "Missing 4 audiobook properties"
+        ]
+      },
+      {
+        "id": "roshan-sitara",
+        "title": "روشن ستارہ",
+        "author": "Maha Malik",
+        "filePath": "D:\\verse-and-volume\\src\\data\\novels\\authors\\maha-malik\\roshan-sitara.ts",
+        "audioProperties": {
+          "hasAudio": "true",
+          "audioUrl": "'/audio/roshan-sitara-full.mp3'"
+        },
+        "audiobookStatus": "partially-configured",
+        "issues": [
+          "Missing 4 audiobook properties"
+        ]
+      },
+      {
+        "id": "a-walk-to-remember",
+        "title": "A Walk to Remember",
+        "author": "Nicholas Sparks",
+        "filePath": "D:\\verse-and-volume\\src\\data\\novels\\authors\\nicholas-sparks\\a-walk-to-remember.ts",
+        "audioProperties": {
+          "hasAudio": "true",
+          "audioUrl": "'/audio/a-walk-to-remember-full.mp3'"
+        },
+        "audiobookStatus": "partially-configured",
+        "issues": [
+          "Missing 4 audiobook properties"
+        ]
+      },
+      {
+        "id": "the-notebook",
+        "title": "The Notebook",
+        "author": "Nicholas Sparks",
+        "filePath": "D:\\verse-and-volume\\src\\data\\novels\\authors\\nicholas-sparks\\the-notebook.ts",
+        "audioProperties": {
+          "hasAudio": "true",
+          "isAudiobook": "true",
+          "audioUrl": "'/audio/books/the-notebook/en/full.mp3'",
+          "audioDuration": "25200",
+          "narrator": "'Professional Narrator'",
+          "audioQuality": "'high'"
+        },
+        "audiobookStatus": "fully-configured",
+        "issues": []
+      },
+      {
+        "id": "haalim",
+        "title": "حالم",
+        "author": "Nimra Ahmad",
+        "filePath": "D:\\verse-and-volume\\src\\data\\novels\\authors\\nimra-ahmad\\haalim.ts",
+        "audioProperties": {
+          "hasAudio": "true",
+          "audioUrl": "'/audio/haalim-full.mp3'"
+        },
+        "audiobookStatus": "partially-configured",
+        "issues": [
+          "Missing 4 audiobook properties"
+        ]
+      },
+      {
+        "id": "jannat-ke-pattay",
+        "title": "جنت کے پتے",
+        "author": "Nimra Ahmad",
+        "filePath": "D:\\verse-and-volume\\src\\data\\novels\\authors\\nimra-ahmad\\jannat-ke-pattay.ts",
+        "audioProperties": {
+          "hasAudio": "true",
+          "audioUrl": "'/audio/jannat-ke-pattay-full.mp3'"
+        },
+        "audiobookStatus": "partially-configured",
+        "issues": [
+          "Missing 4 audiobook properties"
+        ]
+      },
+      {
+        "id": "mushaf",
+        "title": "مصحف",
+        "author": "Nimra Ahmad",
+        "filePath": "D:\\verse-and-volume\\src\\data\\novels\\authors\\nimra-ahmad\\mushaf.ts",
+        "audioProperties": {
+          "hasAudio": "true",
+          "audioUrl": "'/audio/mushaf-full.mp3'"
+        },
+        "audiobookStatus": "partially-configured",
+        "issues": [
+          "Missing 4 audiobook properties"
+        ]
+      },
+      {
+        "id": "namal",
+        "title": "نمل",
+        "author": "Nimra Ahmad",
+        "filePath": "D:\\verse-and-volume\\src\\data\\novels\\authors\\nimra-ahmad\\namal.ts",
+        "audioProperties": {
+          "hasAudio": "true",
+          "audioUrl": "'/audio/namal-full.mp3'"
+        },
+        "audiobookStatus": "partially-configured",
+        "issues": [
+          "Missing 4 audiobook properties"
+        ]
+      },
+      {
+        "id": "aag-ka-darya",
+        "title": "آگ کا دریا",
+        "author": "Qurratulain Hyder",
+        "filePath": "D:\\verse-and-volume\\src\\data\\novels\\authors\\qurratulain-hyder\\aag-ka-darya.ts",
+        "audioProperties": {
+          "hasAudio": "true",
+          "audioUrl": "'/audio/aag-ka-darya-full.mp3'"
+        },
+        "audiobookStatus": "partially-configured",
+        "issues": [
+          "Missing 4 audiobook properties"
+        ]
+      },
+      {
+        "id": "mohabbat-dagh-ki-soorat",
+        "title": "محبت داغ کی صورت",
+        "author": "Riffat Siraj",
+        "filePath": "D:\\verse-and-volume\\src\\data\\novels\\authors\\riffat-siraj\\mohabbat-dagh-ki-soorat.ts",
+        "audioProperties": {
+          "hasAudio": "true",
+          "audioUrl": "'/audio/mohabbat-dagh-ki-soorat-full.mp3'"
+        },
+        "audiobookStatus": "partially-configured",
+        "issues": [
+          "Missing 4 audiobook properties"
+        ]
+      },
+      {
+        "id": "peer-e-kamil",
+        "title": "پیر کامل",
+        "author": "Umera Ahmed",
+        "filePath": "D:\\verse-and-volume\\src\\data\\novels\\authors\\umera-ahmed\\peer-e-kamil.ts",
+        "audioProperties": {
+          "hasAudio": "true",
+          "audioUrl": "'/audio/peer-e-kamil-full.mp3'"
+        },
+        "audiobookStatus": "partially-configured",
+        "issues": [
+          "Missing 4 audiobook properties"
+        ]
+      }
+    ]
+  },
+  "fileAudit": {
+    "totalDirectories": 4,
+    "directoriesWithFiles": 1,
+    "emptyDirectories": 3,
+    "totalAudioFiles": 42,
+    "brokenFiles": 39,
+    "directories": [
+      {
+        "bookId": "crime-and-punishment-dostoevsky",
+        "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky",
+        "languages": [
+          {
+            "language": "en",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en",
+            "files": [
+              {
+                "name": "epilogue-chapter-1.mp3",
+                "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\epilogue-chapter-1.mp3",
+                "size": 0,
+                "accessible": true,
+                "issues": [
+                  "File is empty"
+                ]
+              },
+              {
+                "name": "epilogue-chapter-2.mp3",
+                "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\epilogue-chapter-2.mp3",
+                "size": 0,
+                "accessible": true,
+                "issues": [
+                  "File is empty"
+                ]
+              },
+              {
+                "name": "epilogue.mp3",
+                "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\epilogue.mp3",
+                "size": 0,
+                "accessible": true,
+                "issues": [
+                  "File is empty"
+                ]
+              },
+              {
+                "name": "part-1-chapter-1.mp3",
+                "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-1-chapter-1.mp3",
+                "size": 10397696,
+                "accessible": true,
+                "issues": []
+              },
+              {
+                "name": "part-1-chapter-2.mp3",
+                "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-1-chapter-2.mp3",
+                "size": 22667776,
+                "accessible": true,
+                "issues": []
+              },
+              {
+                "name": "part-1-chapter-3.mp3",
+                "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-1-chapter-3.mp3",
+                "size": 16028672,
+                "accessible": true,
+                "issues": []
+              },
+              {
+                "name": "part-1-chapter-4.mp3",
+                "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-1-chapter-4.mp3",
+                "size": 0,
+                "accessible": true,
+                "issues": [
+                  "File is empty"
+                ]
+              },
+              {
+                "name": "part-1-chapter-5.mp3",
+                "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-1-chapter-5.mp3",
+                "size": 0,
+                "accessible": true,
+                "issues": [
+                  "File is empty"
+                ]
+              },
+              {
+                "name": "part-1-chapter-6.mp3",
+                "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-1-chapter-6.mp3",
+                "size": 0,
+                "accessible": true,
+                "issues": [
+                  "File is empty"
+                ]
+              },
+              {
+                "name": "part-1-chapter-7.mp3",
+                "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-1-chapter-7.mp3",
+                "size": 0,
+                "accessible": true,
+                "issues": [
+                  "File is empty"
+                ]
+              },
+              {
+                "name": "part-2-chapter-1.mp3",
+                "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-2-chapter-1.mp3",
+                "size": 0,
+                "accessible": true,
+                "issues": [
+                  "File is empty"
+                ]
+              },
+              {
+                "name": "part-2-chapter-2.mp3",
+                "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-2-chapter-2.mp3",
+                "size": 0,
+                "accessible": true,
+                "issues": [
+                  "File is empty"
+                ]
+              },
+              {
+                "name": "part-2-chapter-3.mp3",
+                "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-2-chapter-3.mp3",
+                "size": 0,
+                "accessible": true,
+                "issues": [
+                  "File is empty"
+                ]
+              },
+              {
+                "name": "part-2-chapter-4.mp3",
+                "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-2-chapter-4.mp3",
+                "size": 0,
+                "accessible": true,
+                "issues": [
+                  "File is empty"
+                ]
+              },
+              {
+                "name": "part-2-chapter-5.mp3",
+                "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-2-chapter-5.mp3",
+                "size": 0,
+                "accessible": true,
+                "issues": [
+                  "File is empty"
+                ]
+              },
+              {
+                "name": "part-2-chapter-6.mp3",
+                "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-2-chapter-6.mp3",
+                "size": 0,
+                "accessible": true,
+                "issues": [
+                  "File is empty"
+                ]
+              },
+              {
+                "name": "part-2-chapter-7.mp3",
+                "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-2-chapter-7.mp3",
+                "size": 0,
+                "accessible": true,
+                "issues": [
+                  "File is empty"
+                ]
+              },
+              {
+                "name": "part-3-chapter-1.mp3",
+                "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-3-chapter-1.mp3",
+                "size": 0,
+                "accessible": true,
+                "issues": [
+                  "File is empty"
+                ]
+              },
+              {
+                "name": "part-3-chapter-2.mp3",
+                "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-3-chapter-2.mp3",
+                "size": 0,
+                "accessible": true,
+                "issues": [
+                  "File is empty"
+                ]
+              },
+              {
+                "name": "part-3-chapter-3.mp3",
+                "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-3-chapter-3.mp3",
+                "size": 0,
+                "accessible": true,
+                "issues": [
+                  "File is empty"
+                ]
+              },
+              {
+                "name": "part-3-chapter-4.mp3",
+                "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-3-chapter-4.mp3",
+                "size": 0,
+                "accessible": true,
+                "issues": [
+                  "File is empty"
+                ]
+              },
+              {
+                "name": "part-3-chapter-5.mp3",
+                "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-3-chapter-5.mp3",
+                "size": 0,
+                "accessible": true,
+                "issues": [
+                  "File is empty"
+                ]
+              },
+              {
+                "name": "part-3-chapter-6.mp3",
+                "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-3-chapter-6.mp3",
+                "size": 0,
+                "accessible": true,
+                "issues": [
+                  "File is empty"
+                ]
+              },
+              {
+                "name": "part-4-chapter-1.mp3",
+                "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-4-chapter-1.mp3",
+                "size": 0,
+                "accessible": true,
+                "issues": [
+                  "File is empty"
+                ]
+              },
+              {
+                "name": "part-4-chapter-2.mp3",
+                "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-4-chapter-2.mp3",
+                "size": 0,
+                "accessible": true,
+                "issues": [
+                  "File is empty"
+                ]
+              },
+              {
+                "name": "part-4-chapter-3.mp3",
+                "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-4-chapter-3.mp3",
+                "size": 0,
+                "accessible": true,
+                "issues": [
+                  "File is empty"
+                ]
+              },
+              {
+                "name": "part-4-chapter-4.mp3",
+                "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-4-chapter-4.mp3",
+                "size": 0,
+                "accessible": true,
+                "issues": [
+                  "File is empty"
+                ]
+              },
+              {
+                "name": "part-4-chapter-5.mp3",
+                "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-4-chapter-5.mp3",
+                "size": 0,
+                "accessible": true,
+                "issues": [
+                  "File is empty"
+                ]
+              },
+              {
+                "name": "part-4-chapter-6.mp3",
+                "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-4-chapter-6.mp3",
+                "size": 0,
+                "accessible": true,
+                "issues": [
+                  "File is empty"
+                ]
+              },
+              {
+                "name": "part-5-chapter-1.mp3",
+                "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-5-chapter-1.mp3",
+                "size": 0,
+                "accessible": true,
+                "issues": [
+                  "File is empty"
+                ]
+              },
+              {
+                "name": "part-5-chapter-2.mp3",
+                "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-5-chapter-2.mp3",
+                "size": 0,
+                "accessible": true,
+                "issues": [
+                  "File is empty"
+                ]
+              },
+              {
+                "name": "part-5-chapter-3.mp3",
+                "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-5-chapter-3.mp3",
+                "size": 0,
+                "accessible": true,
+                "issues": [
+                  "File is empty"
+                ]
+              },
+              {
+                "name": "part-5-chapter-4.mp3",
+                "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-5-chapter-4.mp3",
+                "size": 0,
+                "accessible": true,
+                "issues": [
+                  "File is empty"
+                ]
+              },
+              {
+                "name": "part-5-chapter-5.mp3",
+                "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-5-chapter-5.mp3",
+                "size": 0,
+                "accessible": true,
+                "issues": [
+                  "File is empty"
+                ]
+              },
+              {
+                "name": "part-6-chapter-1.mp3",
+                "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-6-chapter-1.mp3",
+                "size": 0,
+                "accessible": true,
+                "issues": [
+                  "File is empty"
+                ]
+              },
+              {
+                "name": "part-6-chapter-2.mp3",
+                "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-6-chapter-2.mp3",
+                "size": 0,
+                "accessible": true,
+                "issues": [
+                  "File is empty"
+                ]
+              },
+              {
+                "name": "part-6-chapter-3.mp3",
+                "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-6-chapter-3.mp3",
+                "size": 0,
+                "accessible": true,
+                "issues": [
+                  "File is empty"
+                ]
+              },
+              {
+                "name": "part-6-chapter-4.mp3",
+                "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-6-chapter-4.mp3",
+                "size": 0,
+                "accessible": true,
+                "issues": [
+                  "File is empty"
+                ]
+              },
+              {
+                "name": "part-6-chapter-5.mp3",
+                "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-6-chapter-5.mp3",
+                "size": 0,
+                "accessible": true,
+                "issues": [
+                  "File is empty"
+                ]
+              },
+              {
+                "name": "part-6-chapter-6.mp3",
+                "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-6-chapter-6.mp3",
+                "size": 0,
+                "accessible": true,
+                "issues": [
+                  "File is empty"
+                ]
+              },
+              {
+                "name": "part-6-chapter-7.mp3",
+                "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-6-chapter-7.mp3",
+                "size": 0,
+                "accessible": true,
+                "issues": [
+                  "File is empty"
+                ]
+              },
+              {
+                "name": "part-6-chapter-8.mp3",
+                "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-6-chapter-8.mp3",
+                "size": 0,
+                "accessible": true,
+                "issues": [
+                  "File is empty"
+                ]
+              }
+            ],
+            "brokenFiles": 39,
+            "totalSize": 49094144,
+            "issues": []
+          }
+        ],
+        "audioFiles": [
+          {
+            "name": "epilogue-chapter-1.mp3",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\epilogue-chapter-1.mp3",
+            "size": 0,
+            "accessible": true,
+            "issues": [
+              "File is empty"
+            ]
+          },
+          {
+            "name": "epilogue-chapter-2.mp3",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\epilogue-chapter-2.mp3",
+            "size": 0,
+            "accessible": true,
+            "issues": [
+              "File is empty"
+            ]
+          },
+          {
+            "name": "epilogue.mp3",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\epilogue.mp3",
+            "size": 0,
+            "accessible": true,
+            "issues": [
+              "File is empty"
+            ]
+          },
+          {
+            "name": "part-1-chapter-1.mp3",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-1-chapter-1.mp3",
+            "size": 10397696,
+            "accessible": true,
+            "issues": []
+          },
+          {
+            "name": "part-1-chapter-2.mp3",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-1-chapter-2.mp3",
+            "size": 22667776,
+            "accessible": true,
+            "issues": []
+          },
+          {
+            "name": "part-1-chapter-3.mp3",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-1-chapter-3.mp3",
+            "size": 16028672,
+            "accessible": true,
+            "issues": []
+          },
+          {
+            "name": "part-1-chapter-4.mp3",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-1-chapter-4.mp3",
+            "size": 0,
+            "accessible": true,
+            "issues": [
+              "File is empty"
+            ]
+          },
+          {
+            "name": "part-1-chapter-5.mp3",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-1-chapter-5.mp3",
+            "size": 0,
+            "accessible": true,
+            "issues": [
+              "File is empty"
+            ]
+          },
+          {
+            "name": "part-1-chapter-6.mp3",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-1-chapter-6.mp3",
+            "size": 0,
+            "accessible": true,
+            "issues": [
+              "File is empty"
+            ]
+          },
+          {
+            "name": "part-1-chapter-7.mp3",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-1-chapter-7.mp3",
+            "size": 0,
+            "accessible": true,
+            "issues": [
+              "File is empty"
+            ]
+          },
+          {
+            "name": "part-2-chapter-1.mp3",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-2-chapter-1.mp3",
+            "size": 0,
+            "accessible": true,
+            "issues": [
+              "File is empty"
+            ]
+          },
+          {
+            "name": "part-2-chapter-2.mp3",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-2-chapter-2.mp3",
+            "size": 0,
+            "accessible": true,
+            "issues": [
+              "File is empty"
+            ]
+          },
+          {
+            "name": "part-2-chapter-3.mp3",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-2-chapter-3.mp3",
+            "size": 0,
+            "accessible": true,
+            "issues": [
+              "File is empty"
+            ]
+          },
+          {
+            "name": "part-2-chapter-4.mp3",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-2-chapter-4.mp3",
+            "size": 0,
+            "accessible": true,
+            "issues": [
+              "File is empty"
+            ]
+          },
+          {
+            "name": "part-2-chapter-5.mp3",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-2-chapter-5.mp3",
+            "size": 0,
+            "accessible": true,
+            "issues": [
+              "File is empty"
+            ]
+          },
+          {
+            "name": "part-2-chapter-6.mp3",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-2-chapter-6.mp3",
+            "size": 0,
+            "accessible": true,
+            "issues": [
+              "File is empty"
+            ]
+          },
+          {
+            "name": "part-2-chapter-7.mp3",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-2-chapter-7.mp3",
+            "size": 0,
+            "accessible": true,
+            "issues": [
+              "File is empty"
+            ]
+          },
+          {
+            "name": "part-3-chapter-1.mp3",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-3-chapter-1.mp3",
+            "size": 0,
+            "accessible": true,
+            "issues": [
+              "File is empty"
+            ]
+          },
+          {
+            "name": "part-3-chapter-2.mp3",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-3-chapter-2.mp3",
+            "size": 0,
+            "accessible": true,
+            "issues": [
+              "File is empty"
+            ]
+          },
+          {
+            "name": "part-3-chapter-3.mp3",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-3-chapter-3.mp3",
+            "size": 0,
+            "accessible": true,
+            "issues": [
+              "File is empty"
+            ]
+          },
+          {
+            "name": "part-3-chapter-4.mp3",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-3-chapter-4.mp3",
+            "size": 0,
+            "accessible": true,
+            "issues": [
+              "File is empty"
+            ]
+          },
+          {
+            "name": "part-3-chapter-5.mp3",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-3-chapter-5.mp3",
+            "size": 0,
+            "accessible": true,
+            "issues": [
+              "File is empty"
+            ]
+          },
+          {
+            "name": "part-3-chapter-6.mp3",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-3-chapter-6.mp3",
+            "size": 0,
+            "accessible": true,
+            "issues": [
+              "File is empty"
+            ]
+          },
+          {
+            "name": "part-4-chapter-1.mp3",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-4-chapter-1.mp3",
+            "size": 0,
+            "accessible": true,
+            "issues": [
+              "File is empty"
+            ]
+          },
+          {
+            "name": "part-4-chapter-2.mp3",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-4-chapter-2.mp3",
+            "size": 0,
+            "accessible": true,
+            "issues": [
+              "File is empty"
+            ]
+          },
+          {
+            "name": "part-4-chapter-3.mp3",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-4-chapter-3.mp3",
+            "size": 0,
+            "accessible": true,
+            "issues": [
+              "File is empty"
+            ]
+          },
+          {
+            "name": "part-4-chapter-4.mp3",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-4-chapter-4.mp3",
+            "size": 0,
+            "accessible": true,
+            "issues": [
+              "File is empty"
+            ]
+          },
+          {
+            "name": "part-4-chapter-5.mp3",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-4-chapter-5.mp3",
+            "size": 0,
+            "accessible": true,
+            "issues": [
+              "File is empty"
+            ]
+          },
+          {
+            "name": "part-4-chapter-6.mp3",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-4-chapter-6.mp3",
+            "size": 0,
+            "accessible": true,
+            "issues": [
+              "File is empty"
+            ]
+          },
+          {
+            "name": "part-5-chapter-1.mp3",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-5-chapter-1.mp3",
+            "size": 0,
+            "accessible": true,
+            "issues": [
+              "File is empty"
+            ]
+          },
+          {
+            "name": "part-5-chapter-2.mp3",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-5-chapter-2.mp3",
+            "size": 0,
+            "accessible": true,
+            "issues": [
+              "File is empty"
+            ]
+          },
+          {
+            "name": "part-5-chapter-3.mp3",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-5-chapter-3.mp3",
+            "size": 0,
+            "accessible": true,
+            "issues": [
+              "File is empty"
+            ]
+          },
+          {
+            "name": "part-5-chapter-4.mp3",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-5-chapter-4.mp3",
+            "size": 0,
+            "accessible": true,
+            "issues": [
+              "File is empty"
+            ]
+          },
+          {
+            "name": "part-5-chapter-5.mp3",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-5-chapter-5.mp3",
+            "size": 0,
+            "accessible": true,
+            "issues": [
+              "File is empty"
+            ]
+          },
+          {
+            "name": "part-6-chapter-1.mp3",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-6-chapter-1.mp3",
+            "size": 0,
+            "accessible": true,
+            "issues": [
+              "File is empty"
+            ]
+          },
+          {
+            "name": "part-6-chapter-2.mp3",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-6-chapter-2.mp3",
+            "size": 0,
+            "accessible": true,
+            "issues": [
+              "File is empty"
+            ]
+          },
+          {
+            "name": "part-6-chapter-3.mp3",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-6-chapter-3.mp3",
+            "size": 0,
+            "accessible": true,
+            "issues": [
+              "File is empty"
+            ]
+          },
+          {
+            "name": "part-6-chapter-4.mp3",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-6-chapter-4.mp3",
+            "size": 0,
+            "accessible": true,
+            "issues": [
+              "File is empty"
+            ]
+          },
+          {
+            "name": "part-6-chapter-5.mp3",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-6-chapter-5.mp3",
+            "size": 0,
+            "accessible": true,
+            "issues": [
+              "File is empty"
+            ]
+          },
+          {
+            "name": "part-6-chapter-6.mp3",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-6-chapter-6.mp3",
+            "size": 0,
+            "accessible": true,
+            "issues": [
+              "File is empty"
+            ]
+          },
+          {
+            "name": "part-6-chapter-7.mp3",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-6-chapter-7.mp3",
+            "size": 0,
+            "accessible": true,
+            "issues": [
+              "File is empty"
+            ]
+          },
+          {
+            "name": "part-6-chapter-8.mp3",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\crime-and-punishment-dostoevsky\\en\\part-6-chapter-8.mp3",
+            "size": 0,
+            "accessible": true,
+            "issues": [
+              "File is empty"
+            ]
+          }
+        ],
+        "brokenFiles": 39,
+        "issues": []
+      },
+      {
+        "bookId": "khuda-aur-mohabbat",
+        "path": "D:\\verse-and-volume\\public\\audio\\books\\khuda-aur-mohabbat",
+        "languages": [
+          {
+            "language": "ur",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\khuda-aur-mohabbat\\ur",
+            "files": [],
+            "brokenFiles": 0,
+            "totalSize": 0,
+            "issues": []
+          }
+        ],
+        "audioFiles": [],
+        "brokenFiles": 0,
+        "issues": []
+      },
+      {
+        "bookId": "pride-and-prejudice",
+        "path": "D:\\verse-and-volume\\public\\audio\\books\\pride-and-prejudice",
+        "languages": [
+          {
+            "language": "en",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\pride-and-prejudice\\en",
+            "files": [],
+            "brokenFiles": 0,
+            "totalSize": 0,
+            "issues": []
+          }
+        ],
+        "audioFiles": [],
+        "brokenFiles": 0,
+        "issues": []
+      },
+      {
+        "bookId": "the-notebook",
+        "path": "D:\\verse-and-volume\\public\\audio\\books\\the-notebook",
+        "languages": [
+          {
+            "language": "en",
+            "path": "D:\\verse-and-volume\\public\\audio\\books\\the-notebook\\en",
+            "files": [],
+            "brokenFiles": 0,
+            "totalSize": 0,
+            "issues": []
+          }
+        ],
+        "audioFiles": [],
+        "brokenFiles": 0,
+        "issues": []
+      }
+    ]
+  },
+  "playerAudit": {
+    "componentExists": true,
+    "configurationValid": true,
+    "issues": []
+  },
+  "recommendations": [
+    {
+      "priority": "high",
+      "category": "configuration",
+      "issue": "15 novels have partial audiobook configuration",
+      "action": "Complete audiobook properties for partially configured novels"
+    },
+    {
+      "priority": "high",
+      "category": "files",
+      "issue": "3 audiobook directories are empty",
+      "action": "Download and add authentic audiobook files"
+    }
+  ]
+}

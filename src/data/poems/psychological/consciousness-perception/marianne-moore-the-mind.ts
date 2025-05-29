@@ -1,0 +1,52 @@
+import { Poem } from '@/types';
+
+export const tsMooreTheMind: Poem = {
+  id: 'marianne-moore-the-mind-is-an-enchanting-thing',
+  title: 'The Mind Is an Enchanting Thing',
+  author: 'Marianne Moore',
+  authorId: 'marianne-moore',
+  year: 1944,
+  language: 'en',
+  type: 'poem',
+  content: [
+    "is an enchanted thing",
+    "like the glaze on a",
+    "katydid-wing",
+    "subdivided by sun",
+    "till the nettings are legion.",
+    "Like Gieseking playing Scarlatti;",
+    "",
+    "like the apteryx-awl",
+    "as a beak, or the",
+    "kiwi's rain-shawl",
+    "of haired feathers, the mind",
+    "feeling its way as though blind,",
+    "walks along with its eyes on the ground.",
+    "",
+    "It has memory's ear",
+    "that can hear without",
+    "having to hear.",
+    "Like the gyroscope's fall,",
+    "truly unequivocal",
+    "because trued by regnant certainty,",
+    "",
+    "it is a power of",
+    "strong enchantment. It",
+    "is like the dove-",
+    "neck animated by",
+    "sun; it is memory's eye;",
+    "it's conscientious inconsistency."
+  ],
+  explanation: "Moore's poem celebrates the complexity and wonder of human consciousness. The mind is described as both 'enchanting' and 'conscientiously inconsistent,' capturing the psychological reality that our minds are simultaneously logical and contradictory. The various metaphors (katydid wing, musical performance, bird features) illustrate different aspects of mental functioning - perception, memory, intuition, and reasoning. The poem acknowledges that the mind often works 'as though blind,' suggesting that much of our psychological processing happens below conscious awareness.",
+  themes: [
+    'Consciousness Complexity',
+    'Mental Functioning',
+    'Cognitive Wonder',
+    'Psychological Paradox',
+    'Memory and Perception',
+    'Unconscious Processing',
+    'Mind-Body Connection',
+    'Cognitive Science'
+  ],
+  hasAudio: false
+};

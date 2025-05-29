@@ -1,0 +1,60 @@
+import { Poem } from '@/types';
+
+export const agarAnTurkEShiraziGhazal: Poem = {
+  id: 'agar-an-turk-e-shirazi',
+  title: 'اگر آن ترک شیرازی',
+  author: 'Hafez',
+  authorId: 'hafez',
+  year: 1350,
+  language: 'ur',
+  type: 'ghazal',
+  content: [
+    "اگر آن ترک شیرازی بدست آرد دل ما را",
+    "بخال هندویش بخشم سمرقند و بخارا را",
+    "",
+    "بده ساقی می باقی کہ در جنت نخواہی یافت",
+    "کنار آب رکن آباد و گلگشت مصلا را",
+    "",
+    "بلاغ عاشقان ای دوست کام دل ما باشد",
+    "نہ آن کہ چون زاہد ریا کار خود بینی و تقوا را",
+    "",
+    "من از آن حسن روی دوست کہ چون یوسف مصری است",
+    "ز زندان غم برون آرد بہ اعجاز جمال زلیخا را",
+    "",
+    "اگر دشنام بخت و عتاب روزگار آید",
+    "چو باران رحمت حق بر آن صحرای بی آب آرا را",
+    "",
+    "حدیث از مطرب و می گو و راز دہر کمتر جو",
+    "کہ کس نگشود و نگشاید بہ حکمت این معما را",
+    "",
+    "غزل گفتن بہ شعر تو نیاید ای حافظ",
+    "بیا کہ بر سر منبر بگویند خطبہ را"
+  ],
+  translation: {
+    en: [
+      "If that Turk of Shiraz would take our heart in hand",
+      "For his Hindu mole, I would give Samarkand and Bukhara",
+      "",
+      "Give me wine, O cupbearer, for in paradise you will not find",
+      "The banks of Ruknabad's waters and the rose garden of Musalla",
+      "",
+      "The message of lovers, O friend, would be our heart's desire",
+      "Not like the hypocritical ascetic who sees only himself and piety",
+      "",
+      "I, from that beautiful face of the friend which is like Joseph of Egypt",
+      "Would bring Zuleikha out of the prison of sorrow through the miracle of beauty",
+      "",
+      "If the reproach of fate and the scolding of time comes",
+      "Like the rain of God's mercy on that waterless desert",
+      "",
+      "Speak of the musician and wine, and seek less the secrets of the world",
+      "For no one has solved or will solve this riddle with wisdom",
+      "",
+      "You cannot compose ghazals in verse, O Hafez",
+      "Come, let them recite the sermon from the pulpit"
+    ]
+  },
+  explanation: "This is one of Hafez's most famous ghazals, showcasing his mastery of Persian poetry and his ability to weave together themes of earthly and divine love. The opening couplet has become legendary in Persian literature. The complete ghazal reveals Hafez's sophisticated understanding of mysticism, love, and the human condition, expressed through beautiful imagery and metaphors.",
+  themes: ['Love', 'Beauty', 'Mysticism', 'Wine', 'Spirituality', 'Divine Love'],
+  hasAudio: false
+};
