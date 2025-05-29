@@ -207,7 +207,7 @@ export default function ProseReader({
       {showFullContent && (
         <div className="mt-6 text-center">
           <p className="text-sm text-gray-600 dark:text-gray-400">
-            You are viewing the complete content. Use the "Paginated" button above to switch to page-by-page reading.
+            You are viewing the complete content. Use the &ldquo;Paginated&rdquo; button above to switch to page-by-page reading.
           </p>
         </div>
       )}
