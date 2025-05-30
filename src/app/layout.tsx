@@ -34,6 +34,9 @@ export default function RootLayout({
   return (
     <html className="scroll-smooth" style={inlineStyle}>
       <head>
+        {/* Google AdSense Meta Tag */}
+        <meta name="google-adsense-account" content="ca-pub-5754219619080083" />
+
         {/* Google AdSense */}
         <Script
           async

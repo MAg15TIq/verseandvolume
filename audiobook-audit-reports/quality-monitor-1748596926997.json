@@ -1,0 +1,89 @@
+{
+  "timestamp": "2025-05-30T09:22:06.907Z",
+  "books": [
+    {
+      "bookId": "crime-and-punishment-dostoevsky",
+      "languages": [
+        {
+          "language": "en",
+          "fileCount": 42,
+          "totalSize": 1269466478
+        }
+      ],
+      "totalFiles": 42,
+      "totalSize": 1269466478,
+      "avgFileSize": 30225392.333333332,
+      "issues": [
+        "Small file detected: epilogue.mp3 (0KB)"
+      ]
+    },
+    {
+      "bookId": "jannat-ke-pattay",
+      "languages": [
+        {
+          "language": "ur",
+          "fileCount": 0,
+          "totalSize": 0
+        }
+      ],
+      "totalFiles": 0,
+      "totalSize": 0,
+      "avgFileSize": 0,
+      "issues": []
+    },
+    {
+      "bookId": "khuda-aur-mohabbat",
+      "languages": [
+        {
+          "language": "ur",
+          "fileCount": 0,
+          "totalSize": 0
+        }
+      ],
+      "totalFiles": 0,
+      "totalSize": 0,
+      "avgFileSize": 0,
+      "issues": []
+    },
+    {
+      "bookId": "pride-and-prejudice",
+      "languages": [
+        {
+          "language": "en",
+          "fileCount": 37,
+          "totalSize": 755586536
+        }
+      ],
+      "totalFiles": 37,
+      "totalSize": 755586536,
+      "avgFileSize": 20421257.72972973,
+      "issues": []
+    },
+    {
+      "bookId": "the-notebook",
+      "languages": [
+        {
+          "language": "en",
+          "fileCount": 2,
+          "totalSize": 330944
+        }
+      ],
+      "totalFiles": 2,
+      "totalSize": 330944,
+      "avgFileSize": 165472,
+      "issues": [
+        "Small file detected: chapter-01.mp3 (162KB)",
+        "Small file detected: chapter-02.mp3 (162KB)"
+      ]
+    }
+  ],
+  "issues": [
+    "crime-and-punishment-dostoevsky: Small file detected: epilogue.mp3 (0KB)",
+    "the-notebook: Small file detected: chapter-01.mp3 (162KB)",
+    "the-notebook: Small file detected: chapter-02.mp3 (162KB)"
+  ],
+  "recommendations": [
+    "Review and fix identified issues",
+    "Replace demo files with authentic audiobooks"
+  ]
+}
