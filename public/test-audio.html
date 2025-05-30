@@ -4,28 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Audio Test</title>
+
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5754219619080083"
+         crossorigin="anonymous"></script>
 </head>
 <body>
     <h1>Crime and Punishment Audio Test</h1>
-    
+
     <h2>Part 1 - Chapter 1</h2>
     <audio controls>
         <source src="/audio/books/crime-and-punishment-dostoevsky/en/part-1-chapter-1.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
-    
+
     <h2>Part 1 - Chapter 2</h2>
     <audio controls>
         <source src="/audio/books/crime-and-punishment-dostoevsky/en/part-1-chapter-2.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
-    
+
     <h2>Part 1 - Chapter 3</h2>
     <audio controls>
         <source src="/audio/books/crime-and-punishment-dostoevsky/en/part-1-chapter-3.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
-    
+
     <script>
         // Test if files are accessible
         const testUrls = [
@@ -33,7 +37,7 @@
             '/audio/books/crime-and-punishment-dostoevsky/en/part-1-chapter-2.mp3',
             '/audio/books/crime-and-punishment-dostoevsky/en/part-1-chapter-3.mp3'
         ];
-        
+
         testUrls.forEach(url => {
             fetch(url, { method: 'HEAD' })
                 .then(response => {

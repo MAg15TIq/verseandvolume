@@ -34,6 +34,14 @@ export default function RootLayout({
   return (
     <html className="scroll-smooth" style={inlineStyle}>
       <head>
+        {/* Google AdSense */}
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5754219619080083"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
+
         {/* Add a script to ensure consistent HTML attributes between server and client */}
         <Script id="handle-html-attributes" strategy="beforeInteractive">
           {`

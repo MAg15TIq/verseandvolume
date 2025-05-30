@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdSense Integration Verification</title>
+    
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5754219619080083"
+         crossorigin="anonymous"></script>
+    
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            min-height: 100vh;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        .test-section {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            border-left: 4px solid #4CAF50;
+        }
+        .status {
+            font-weight: bold;
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+        .success { color: #4CAF50; }
+        .error { color: #f44336; }
+        .info { color: #2196F3; }
+        .code {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 15px;
+            border-radius: 5px;
+            font-family: 'Courier New', monospace;
+            margin: 10px 0;
+            overflow-x: auto;
+        }
+        .button {
+            background: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+            font-size: 16px;
+            transition: background 0.3s;
+        }
+        .button:hover {
+            background: #45a049;
+        }
+        .results {
+            margin-top: 20px;
+            padding: 15px;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎯 AdSense Integration Verification</h1>
+        
+        <div class="test-section">
+            <h2>📋 Integration Status</h2>
+            <div id="integration-status">
+                <div class="status info">🔍 Checking AdSense integration...</div>
+            </div>
+        </div>
+
+        <div class="test-section">
+            <h2>🔧 Script Analysis</h2>
+            <div id="script-analysis">
+                <div class="status info">🔍 Analyzing AdSense script...</div>
+            </div>
+        </div>
+
+        <div class="test-section">
+            <h2>🌐 Network Test</h2>
+            <button class="button" onclick="testNetworkConnection()">Test AdSense Connection</button>
+            <div id="network-results" class="results" style="display: none;"></div>
+        </div>
+
+        <div class="test-section">
+            <h2>📊 Performance Check</h2>
+            <button class="button" onclick="checkPerformance()">Check Load Performance</button>
+            <div id="performance-results" class="results" style="display: none;"></div>
+        </div>
+
+        <div class="test-section">
+            <h2>🎉 Overall Status</h2>
+            <div id="overall-status">
+                <div class="status info">🔍 Running comprehensive checks...</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Check AdSense integration on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            checkAdSenseIntegration();
+            analyzeScript();
+            updateOverallStatus();
+        });
+
+        function checkAdSenseIntegration() {
+            const statusDiv = document.getElementById('integration-status');
+            
+            // Check if AdSense script is present
+            const adSenseScripts = document.querySelectorAll('script[src*="pagead2.googlesyndication.com"]');
+            
+            if (adSenseScripts.length > 0) {
+                const script = adSenseScripts[0];
+                const clientId = script.src.match(/client=([^&]+)/);
+                
+                let html = '<div class="status success">✅ AdSense script found!</div>';
+                html += `<div class="status info">📝 Scripts detected: ${adSenseScripts.length}</div>`;
+                
+                if (clientId) {
+                    html += `<div class="status success">✅ Client ID: ${clientId[1]}</div>`;
+                } else {
+                    html += '<div class="status error">❌ Client ID not found</div>';
+                }
+                
+                // Check attributes
+                if (script.async) {
+                    html += '<div class="status success">✅ Async attribute present</div>';
+                } else {
+                    html += '<div class="status error">❌ Missing async attribute</div>';
+                }
+                
+                if (script.crossOrigin) {
+                    html += '<div class="status success">✅ CrossOrigin attribute present</div>';
+                } else {
+                    html += '<div class="status error">❌ Missing crossOrigin attribute</div>';
+                }
+                
+                statusDiv.innerHTML = html;
+            } else {
+                statusDiv.innerHTML = '<div class="status error">❌ AdSense script not found!</div>';
+            }
+        }
+
+        function analyzeScript() {
+            const analysisDiv = document.getElementById('script-analysis');
+            const scripts = document.querySelectorAll('script[src*="pagead2.googlesyndication.com"]');
+            
+            if (scripts.length > 0) {
+                const script = scripts[0];
+                let html = '<div class="code">';
+                html += `Source: ${script.src}<br>`;
+                html += `Async: ${script.async}<br>`;
+                html += `CrossOrigin: ${script.crossOrigin}<br>`;
+                html += `Type: ${script.type || 'text/javascript'}<br>`;
+                html += '</div>';
+                
+                if (scripts.length > 1) {
+                    html += `<div class="status error">⚠️ Warning: ${scripts.length} AdSense scripts detected (should be 1)</div>`;
+                } else {
+                    html += '<div class="status success">✅ Single AdSense script (optimal)</div>';
+                }
+                
+                analysisDiv.innerHTML = html;
+            } else {
+                analysisDiv.innerHTML = '<div class="status error">❌ No AdSense script to analyze</div>';
+            }
+        }
+
+        function testNetworkConnection() {
+            const resultsDiv = document.getElementById('network-results');
+            resultsDiv.style.display = 'block';
+            resultsDiv.innerHTML = '<div class="status info">🔍 Testing network connection...</div>';
+            
+            // Test if AdSense script can be loaded
+            fetch('https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5754219619080083', {
+                method: 'HEAD',
+                mode: 'no-cors'
+            }).then(() => {
+                resultsDiv.innerHTML = '<div class="status success">✅ AdSense servers reachable</div>';
+            }).catch(error => {
+                resultsDiv.innerHTML = `<div class="status error">❌ Network error: ${error.message}</div>`;
+            });
+        }
+
+        function checkPerformance() {
+            const resultsDiv = document.getElementById('performance-results');
+            resultsDiv.style.display = 'block';
+            
+            const loadTime = performance.now();
+            const scripts = document.querySelectorAll('script[src*="pagead2.googlesyndication.com"]');
+            
+            let html = `<div class="status info">📊 Page load time: ${loadTime.toFixed(2)}ms</div>`;
+            html += `<div class="status info">📊 AdSense scripts: ${scripts.length}</div>`;
+            
+            // Check if scripts are loaded asynchronously
+            if (scripts.length > 0 && scripts[0].async) {
+                html += '<div class="status success">✅ Scripts loading asynchronously (good for performance)</div>';
+            } else {
+                html += '<div class="status error">⚠️ Scripts not loading asynchronously</div>';
+            }
+            
+            resultsDiv.innerHTML = html;
+        }
+
+        function updateOverallStatus() {
+            const statusDiv = document.getElementById('overall-status');
+            const scripts = document.querySelectorAll('script[src*="pagead2.googlesyndication.com"]');
+            
+            if (scripts.length === 1) {
+                const script = scripts[0];
+                const hasClientId = script.src.includes('ca-pub-5754219619080083');
+                const hasAsync = script.async;
+                const hasCrossOrigin = script.crossOrigin;
+                
+                if (hasClientId && hasAsync && hasCrossOrigin) {
+                    statusDiv.innerHTML = `
+                        <div class="status success">🎉 PERFECT INTEGRATION!</div>
+                        <div class="status success">✅ All checks passed</div>
+                        <div class="status success">🚀 Ready for production</div>
+                    `;
+                } else {
+                    statusDiv.innerHTML = `
+                        <div class="status error">⚠️ Integration needs improvement</div>
+                        <div class="status info">Please check the issues above</div>
+                    `;
+                }
+            } else if (scripts.length === 0) {
+                statusDiv.innerHTML = `
+                    <div class="status error">❌ AdSense not integrated</div>
+                    <div class="status error">Please add the AdSense script</div>
+                `;
+            } else {
+                statusDiv.innerHTML = `
+                    <div class="status error">⚠️ Multiple AdSense scripts detected</div>
+                    <div class="status error">Please remove duplicate scripts</div>
+                `;
+            }
+        }
+    </script>
+</body>
+</html>
