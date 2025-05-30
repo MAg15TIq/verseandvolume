@@ -5,7 +5,7 @@ export const namalNovel: Book = {
   title: 'نمل',
   author: 'Nimra Ahmad',
   authorId: 'nimra-ahmad',
-  coverImage: 'https://upload.wikimedia.org/wikipedia/en/b/b5/Namal_Novel_Cover.jpg',
+  coverImage: '/images/covers/namal.jpg',
   publishYear: 2018,
   language: 'ur',
   genre: ['Novel', 'Romance', 'Love Story', 'Mystery', 'Contemporary'],

@@ -5,7 +5,7 @@ export const jannatKePattayNovel: Book = {
   title: 'جنت کے پتے',
   author: 'Nimra Ahmad',
   authorId: 'nimra-ahmad',
-  coverImage: 'https://upload.wikimedia.org/wikipedia/en/a/a5/Jannat_Ke_Pattay_Cover.jpg',
+  coverImage: '/images/covers/jannat-ke-pattay.jpg',
   publishYear: 2015,
   language: 'ur',
   genre: ['Novel', 'Romance', 'Love Story', 'Islamic Fiction', 'Contemporary'],

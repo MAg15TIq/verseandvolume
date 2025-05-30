@@ -5,7 +5,7 @@ export const haalimNovel: Book = {
   title: 'حالم',
   author: 'Nimra Ahmad',
   authorId: 'nimra-ahmad',
-  coverImage: 'https://upload.wikimedia.org/wikipedia/en/e/e8/Haalim_Novel_Cover.jpg',
+  coverImage: '/images/covers/haalim.jpg',
   publishYear: 2019,
   language: 'ur',
   genre: ['Novel', 'Romance', 'Love Story', 'Mystery', 'Adventure'],

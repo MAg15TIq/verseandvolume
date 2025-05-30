@@ -5,7 +5,7 @@ export const diyarEDilNovel: Book = {
   title: 'دیار دل',
   author: 'Farhat Ishtiaq',
   authorId: 'farhat-ishtiaq',
-  coverImage: 'https://upload.wikimedia.org/wikipedia/en/f/f9/Diyar_E_Dil_Cover.jpg',
+  coverImage: '/images/covers/diyar-e-dil.jpeg',
   publishYear: 2014,
   language: 'ur',
   genre: ['Novel', 'Romance', 'Love Story', 'Family Saga', 'Drama'],

@@ -5,7 +5,7 @@ export const mushafNovel: Book = {
   title: 'مصحف',
   author: 'Nimra Ahmad',
   authorId: 'nimra-ahmad',
-  coverImage: 'https://upload.wikimedia.org/wikipedia/en/d/d7/Mushaf_Novel_Cover.jpg',
+  coverImage: '/images/covers/mushaf.jpg',
   publishYear: 2014,
   language: 'ur',
   genre: ['Novel', 'Romance', 'Love Story', 'Islamic Fiction', 'Spiritual'],

@@ -1,0 +1,364 @@
+{
+  "timestamp": "2025-05-30T12:58:22.224Z",
+  "totalIssues": 57,
+  "issueTypes": {
+    "external-cover": 55,
+    "missing-local-cover": 2
+  },
+  "issues": [
+    {
+      "file": "src/data/novels/authors/hashim-nadeem/bachpan-ka-december.ts",
+      "novel": "بچپن کا دسمبر",
+      "id": "bachpan-ka-december",
+      "issue": "External cover URL (should be local): https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Urdu_novel_cover_placeholder.jpg/300px-Urdu_novel_cover_placeholder.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Urdu_novel_cover_placeholder.jpg/300px-Urdu_novel_cover_placeholder.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/nimra-ahmad/jannat-ke-pattay.ts",
+      "novel": "جنت کے پتے",
+      "id": "jannat-ke-pattay",
+      "issue": "External cover URL (should be local): https://upload.wikimedia.org/wikipedia/en/a/a5/Jannat_Ke_Pattay_Cover.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/a/a5/Jannat_Ke_Pattay_Cover.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/bano-qudsia/raja-gidh.ts",
+      "novel": "راجا گدھ",
+      "id": "raja-gidh",
+      "issue": "Missing local cover file: /images/covers/raja-gidh.jpg",
+      "type": "missing-local-cover",
+      "coverPath": "/images/covers/raja-gidh.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/qurratulain-hyder/aag-ka-darya.ts",
+      "novel": "آگ کا دریا",
+      "id": "aag-ka-darya",
+      "issue": "External cover URL (should be local): https://upload.wikimedia.org/wikipedia/en/8/8e/River_of_Fire_%28novel%29.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/8/8e/River_of_Fire_%28novel%29.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/umera-ahmed/peer-e-kamil.ts",
+      "novel": "پیر کامل",
+      "id": "peer-e-kamil",
+      "issue": "Missing local cover file: /images/covers/peer-e-kamil.jpg",
+      "type": "missing-local-cover",
+      "coverPath": "/images/covers/peer-e-kamil.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/hashim-nadeem/khuda-aur-mohabbat.ts",
+      "novel": "خدا اور محبت",
+      "id": "khuda-aur-mohabbat",
+      "issue": "External cover URL (should be local): https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Urdu_novel_cover_khuda_aur_mohabbat.jpg/300px-Urdu_novel_cover_khuda_aur_mohabbat.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Urdu_novel_cover_khuda_aur_mohabbat.jpg/300px-Urdu_novel_cover_khuda_aur_mohabbat.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/additional-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/en/y/y1/Yaqeen_E_Mohabbat_Cover.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/y/y1/Yaqeen_E_Mohabbat_Cover.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/additional-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/en/i/i2/Ishq_Ka_Sheen_Cover.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/i/i2/Ishq_Ka_Sheen_Cover.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/additional-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Urdu_novel_cover_placeholder.jpg/300px-Urdu_novel_cover_placeholder.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Urdu_novel_cover_placeholder.jpg/300px-Urdu_novel_cover_placeholder.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/additional-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Urdu_novel_cover.jpg/300px-Urdu_novel_cover.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Urdu_novel_cover.jpg/300px-Urdu_novel_cover.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/additional-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Classic_urdu_novel.jpg/300px-Classic_urdu_novel.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Classic_urdu_novel.jpg/300px-Classic_urdu_novel.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/additional-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/en/m/m1/Mohabbat_Ki_Raah_Cover.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/m/m1/Mohabbat_Ki_Raah_Cover.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/additional-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/en/i/i8/Ishq_E_Haqeeqi_Cover.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/i/i8/Ishq_E_Haqeeqi_Cover.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/additional-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/en/d/d2/Dil_Ki_Dastan_Cover.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/d/d2/Dil_Ki_Dastan_Cover.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/additional-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/en/m/m4/Mohabbat_Ka_Imtihan_Novel_Cover.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/m/m4/Mohabbat_Ka_Imtihan_Novel_Cover.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/additional-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/en/i/i9/Ishq_Ki_Inteha_Cover.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/i/i9/Ishq_Ki_Inteha_Cover.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/additional-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/en/m/m6/Mohabbat_Ki_Jeet_Cover.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/m/m6/Mohabbat_Ki_Jeet_Cover.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/additional-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/en/d/d7/Dil_Ki_Awaaz_Novel_Cover.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/d/d7/Dil_Ki_Awaaz_Novel_Cover.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/additional-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/en/i/i3/Ishq_Ki_Manzil_Cover.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/i/i3/Ishq_Ki_Manzil_Cover.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/additional-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/en/m/m2/Mohabbat_Ka_Qarz_Cover.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/m/m2/Mohabbat_Ka_Qarz_Cover.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/additional-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/en/i/i4/Ishq_Ki_Khushi_Cover.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/i/i4/Ishq_Ki_Khushi_Cover.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/additional-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/en/m/m8/Mohabbat_Ki_Shaam_Cover.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/m/m8/Mohabbat_Ki_Shaam_Cover.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/additional-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/en/d/d4/Dil_Ki_Rahat_Cover.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/d/d4/Dil_Ki_Rahat_Cover.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/additional-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/en/i/i5/Ishq_Ki_Subah_Cover.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/i/i5/Ishq_Ki_Subah_Cover.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/additional-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/en/m/m9/Mohabbat_Ki_Raat_Cover.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/m/m9/Mohabbat_Ki_Raat_Cover.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/additional-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/en/m/m9/Mohabbat_Ki_Khwahish_Cover.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/m/m9/Mohabbat_Ki_Khwahish_Cover.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/additional-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/en/d/d7/Dil_Ki_Rangini_Cover.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/d/d7/Dil_Ki_Rangini_Cover.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/additional-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/en/m/m8/Mohabbat_Ki_Manzil_New_Cover.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/m/m8/Mohabbat_Ki_Manzil_New_Cover.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/additional-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/en/i/i9/Ishq_Ki_Kahani_Cover.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/i/i9/Ishq_Ki_Kahani_Cover.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/additional-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/en/d/d4/Dil_Ki_Dua_Cover.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/d/d4/Dil_Ki_Dua_Cover.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/additional-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/en/m/m2/Mohabbat_Ki_Sadagi_Cover.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/m/m2/Mohabbat_Ki_Sadagi_Cover.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/additional-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/en/i/i3/Ishq_Ki_Mehfil_Cover.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/i/i3/Ishq_Ki_Mehfil_Cover.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/additional-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/en/d/d1/Dil_Ki_Khushi_New_Cover.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/d/d1/Dil_Ki_Khushi_New_Cover.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/additional-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/en/m/m4/Mohabbat_Ki_Tasveer_Cover.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/m/m4/Mohabbat_Ki_Tasveer_Cover.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/additional-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/en/i/i4/Ishq_Ki_Awaz_Cover.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/i/i4/Ishq_Ki_Awaz_Cover.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/additional-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/en/d/d2/Dil_Ki_Manzil_Cover.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/d/d2/Dil_Ki_Manzil_Cover.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/additional-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/en/m/m6/Mohabbat_Ki_Roshnai_Cover.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/m/m6/Mohabbat_Ki_Roshnai_Cover.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/additional-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/en/i/i7/Ishq_Ki_Khwahish_New_Cover.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/i/i7/Ishq_Ki_Khwahish_New_Cover.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/additional-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/en/d/d5/Dil_Ki_Sada_Cover.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/d/d5/Dil_Ki_Sada_Cover.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/additional-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/en/m/m7/Mohabbat_Ki_Khushbu_Novel_Cover.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/m/m7/Mohabbat_Ki_Khushbu_Novel_Cover.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/english-love-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/en/p/p1/Paris_Library_cover.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/p/p1/Paris_Library_cover.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/english-love-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/en/i/i2/Invisible_Bridge_cover.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/i/i2/Invisible_Bridge_cover.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/urdu-love-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Urdu_love_novel_cover.jpg/300px-Urdu_love_novel_cover.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Urdu_love_novel_cover.jpg/300px-Urdu_love_novel_cover.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/urdu-love-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Urdu_romance_cover.jpg/300px-Urdu_romance_cover.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Urdu_romance_cover.jpg/300px-Urdu_romance_cover.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/urdu-love-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Urdu_novel_cover.jpg/300px-Urdu_novel_cover.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Urdu_novel_cover.jpg/300px-Urdu_novel_cover.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/urdu-love-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Classic_urdu_novel.jpg/300px-Classic_urdu_novel.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Classic_urdu_novel.jpg/300px-Classic_urdu_novel.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/urdu-love-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Urdu_literature_cover.jpg/300px-Urdu_literature_cover.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Urdu_literature_cover.jpg/300px-Urdu_literature_cover.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/urdu-love-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Urdu_romantic_novel.jpg/300px-Urdu_romantic_novel.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Urdu_romantic_novel.jpg/300px-Urdu_romantic_novel.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/urdu-love-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/commons/thumb/g/g7/Urdu_love_story_cover.jpg/300px-Urdu_love_story_cover.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/g/g7/Urdu_love_story_cover.jpg/300px-Urdu_love_story_cover.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/urdu-love-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/commons/thumb/h/h8/Classic_urdu_romance.jpg/300px-Classic_urdu_romance.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/h/h8/Classic_urdu_romance.jpg/300px-Classic_urdu_romance.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/urdu-love-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/commons/thumb/i/i9/Urdu_passionate_love.jpg/300px-Urdu_passionate_love.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/i/i9/Urdu_passionate_love.jpg/300px-Urdu_passionate_love.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/urdu-love-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/commons/thumb/j/j1/Urdu_desire_love.jpg/300px-Urdu_desire_love.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/j/j1/Urdu_desire_love.jpg/300px-Urdu_desire_love.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/urdu-love-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/commons/thumb/k/k2/Urdu_heart_portrait.jpg/300px-Urdu_heart_portrait.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/k/k2/Urdu_heart_portrait.jpg/300px-Urdu_heart_portrait.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/urdu-love-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/commons/thumb/l/l3/Urdu_street_love.jpg/300px-Urdu_street_love.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/l/l3/Urdu_street_love.jpg/300px-Urdu_street_love.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/urdu-love-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/commons/thumb/m/m4/Urdu_gathering_love.jpg/300px-Urdu_gathering_love.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/m/m4/Urdu_gathering_love.jpg/300px-Urdu_gathering_love.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/urdu-love-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/commons/thumb/n/n5/Urdu_call_love.jpg/300px-Urdu_call_love.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/n/n5/Urdu_call_love.jpg/300px-Urdu_call_love.jpg"
+    },
+    {
+      "file": "src/data/novels/authors/urdu-love-novels.ts",
+      "issue": "External cover URL: https://upload.wikimedia.org/wikipedia/commons/thumb/o/o6/Urdu_heart_story.jpg/300px-Urdu_heart_story.jpg",
+      "type": "external-cover",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/o/o6/Urdu_heart_story.jpg/300px-Urdu_heart_story.jpg"
+    }
+  ]
+}

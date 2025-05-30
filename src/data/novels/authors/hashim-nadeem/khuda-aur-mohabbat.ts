@@ -5,7 +5,7 @@ export const khudaAurMohabbatNovel: Book = {
   title: 'خدا اور محبت',
   author: 'Hashim Nadeem',
   authorId: 'hashim-nadeem',
-  coverImage: '/images/covers/khuda-aur-mohabbat.jpg',
+  coverImage: '/images/covers/khuda-aur-mohabbat.webp',
   publishYear: 2013,
   language: 'ur',
   genre: ['Novel', 'Romance', 'Love Story', 'Spiritual', 'Drama'],

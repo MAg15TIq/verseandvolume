@@ -5,7 +5,7 @@ export const humsafarNovel: Book = {
   title: 'ہمسفر',
   author: 'Farhat Ishtiaq',
   authorId: 'farhat-ishtiaq',
-  coverImage: 'https://upload.wikimedia.org/wikipedia/en/c/c8/Humsafar_Novel_Cover.jpg',
+  coverImage: '/images/covers/humsafar.png',
   publishYear: 2011,
   language: 'ur',
   genre: ['Novel', 'Romance', 'Love Story', 'Family Drama', 'Contemporary'],

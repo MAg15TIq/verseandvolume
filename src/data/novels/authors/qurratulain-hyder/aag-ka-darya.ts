@@ -5,7 +5,7 @@ export const aagKaDaryaNovel: Book = {
   title: 'آگ کا دریا',
   author: 'Qurratulain Hyder',
   authorId: 'qurratulain-hyder',
-  coverImage: 'https://upload.wikimedia.org/wikipedia/en/8/8e/River_of_Fire_%28novel%29.jpg',
+  coverImage: '/images/covers/aag-ka-darya.jpg',
   publishYear: 1959,
   language: 'ur',
   genre: ['Novel', 'Historical Fiction', 'Epic'],
