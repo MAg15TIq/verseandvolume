@@ -4,6 +4,22 @@ export default function Document() {
   return (
     <Html className="scroll-smooth" style={{ '--n8n-chat-display': 'none' } as React.CSSProperties}>
       <Head>
+        {/* Google Analytics (gtag.js) */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-W3HVP0ELHK"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-W3HVP0ELHK');
+            `,
+          }}
+        />
+
         {/* Google AdSense */}
         <script
           async
