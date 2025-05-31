@@ -1,7 +1,10 @@
 import { useTranslations } from 'next-intl';
+import { useLocale } from 'next-intl';
+import Link from 'next/link';
 
 export default function PrivacyPage() {
   const t = useTranslations();
+  const locale = useLocale();
 
   return (
     <div className="container mx-auto px-4 py-12">
@@ -59,7 +62,24 @@ export default function PrivacyPage() {
             <li>To personalize your experience</li>
           </ul>
 
-          <h2>3. Cookies and Tracking Technologies</h2>
+          <h2>3. Google AdSense and Advertising</h2>
+          <p>
+            We use Google AdSense to display advertisements on our website. Google AdSense uses cookies and other tracking technologies to serve ads based on your prior visits to our website or other websites. Google&rsquo;s use of advertising cookies enables it and its partners to serve ads to you based on your visit to our site and/or other sites on the Internet.
+          </p>
+          <p>
+            <strong>Google AdSense Data Collection:</strong>
+          </p>
+          <ul>
+            <li>Google may collect and use data about your visits to this and other websites to provide targeted advertisements</li>
+            <li>Google uses cookies to track user interactions and serve personalized ads</li>
+            <li>Data collected may include your IP address, browser type, device information, and browsing behavior</li>
+            <li>Google may share this data with advertising partners and other third parties</li>
+          </ul>
+          <p>
+            You may opt out of personalized advertising by visiting <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener noreferrer" className="text-paper-700 dark:text-paper-300 hover:text-paper-900 dark:hover:text-paper-100">Google&rsquo;s Ads Settings</a> or by visiting <a href="http://www.aboutads.info/choices/" target="_blank" rel="noopener noreferrer" className="text-paper-700 dark:text-paper-300 hover:text-paper-900 dark:hover:text-paper-100">www.aboutads.info</a>.
+          </p>
+
+          <h2>4. Cookies and Tracking Technologies</h2>
           <p>
             We use cookies and similar tracking technologies to track activity on our website and store certain information. Cookies are files with a small amount of data which may include an anonymous unique identifier.
           </p>
@@ -73,9 +93,14 @@ export default function PrivacyPage() {
             <li><strong>Essential Cookies:</strong> Necessary for the website to function properly</li>
             <li><strong>Preference Cookies:</strong> Allow the website to remember choices you make (such as dark mode preference)</li>
             <li><strong>Analytics Cookies:</strong> Help us understand how visitors interact with our website</li>
+            <li><strong>Advertising Cookies:</strong> Used by Google AdSense and other advertising partners to serve relevant ads</li>
+            <li><strong>Third-Party Cookies:</strong> Set by external services like Google AdSense for advertising purposes</li>
           </ul>
+          <p>
+            For more detailed information about our cookie usage, please see our <Link href={`/${locale}/cookies`} className="text-paper-700 dark:text-paper-300 hover:text-paper-900 dark:hover:text-paper-100">Cookie Policy</Link>.
+          </p>
 
-          <h2>4. Data Retention</h2>
+          <h2>5. Data Retention</h2>
           <p>
             We will retain your personal data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use your personal data to the extent necessary to comply with our legal obligations, resolve disputes, and enforce our legal agreements and policies.
           </p>
@@ -83,12 +108,12 @@ export default function PrivacyPage() {
             We will also retain usage data for internal analysis purposes. Usage data is generally retained for a shorter period, except when this data is used to strengthen the security or to improve the functionality of our website, or we are legally obligated to retain this data for longer periods.
           </p>
 
-          <h2>5. Data Security</h2>
+          <h2>6. Data Security</h2>
           <p>
             The security of your data is important to us, but remember that no method of transmission over the Internet or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your personal data, we cannot guarantee its absolute security.
           </p>
 
-          <h2>6. Your Data Protection Rights</h2>
+          <h2>7. Your Data Protection Rights</h2>
           <p>
             Depending on your location, you may have certain rights regarding your personal data, including:
           </p>
@@ -104,7 +129,7 @@ export default function PrivacyPage() {
             If you wish to exercise any of these rights, please contact us at <a href="mailto:privacy@verseandvolume.com" className="text-paper-700 dark:text-paper-300 hover:text-paper-900 dark:hover:text-paper-100">privacy@verseandvolume.com</a>.
           </p>
 
-          <h2>7. Third-Party Services</h2>
+          <h2>8. Third-Party Services</h2>
           <p>
             Our website may contain links to other websites that are not operated by us. If you click on a third-party link, you will be directed to that third party&rsquo;s site. We strongly advise you to review the Privacy Policy of every site you visit.
           </p>
@@ -112,12 +137,12 @@ export default function PrivacyPage() {
             We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
           </p>
 
-          <h2>8. Children&rsquo;s Privacy</h2>
+          <h2>9. Children&rsquo;s Privacy</h2>
           <p>
             Our website is not intended for use by children under the age of 13. We do not knowingly collect personally identifiable information from children under 13. If you are a parent or guardian and you are aware that your child has provided us with personal data, please contact us so that we can take necessary actions.
           </p>
 
-          <h2>9. Changes to This Privacy Policy</h2>
+          <h2>10. Changes to This Privacy Policy</h2>
           <p>
             We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the &ldquo;Last updated&rdquo; date at the top of this Privacy Policy.
           </p>
@@ -125,7 +150,7 @@ export default function PrivacyPage() {
             You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
           </p>
 
-          <h2>10. Contact Us</h2>
+          <h2>11. Contact Us</h2>
           <p>
             If you have any questions about this Privacy Policy, please contact us at <a href="mailto:privacy@verseandvolume.com" className="text-paper-700 dark:text-paper-300 hover:text-paper-900 dark:hover:text-paper-100">privacy@verseandvolume.com</a>.
           </p>

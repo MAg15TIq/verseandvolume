@@ -1106,79 +1106,6 @@ export const authors: Author[] = [
     ]
   },
   {
-    id: 'fyodor-dostoevsky',
-    name: 'Fyodor Dostoevsky',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Vasily_Perov_-_Портрет_Ф.М.Достоевского_-_Google_Art_Project.jpg/800px-Vasily_Perov_-_Портрет_Ф.М.Достоевского_-_Google_Art_Project.jpg',
-    birthYear: 1821,
-    deathYear: 1881,
-    birthPlace: 'Moscow, Russian Empire',
-    bio: 'Fyodor Mikhailovich Dostoevsky was a Russian novelist, philosopher, short story writer, essayist, and journalist. His literary works explore human psychology in the troubled political, social, and spiritual atmospheres of 19th-century Russia, and engage with a variety of philosophical and religious themes. His most acclaimed novels include Crime and Punishment (1866), The Idiot (1869), Demons (1872), and The Brothers Karamazov (1880). Dostoevsky\'s body of work consists of 12 novels, four novellas, 16 short stories, and numerous other works. Many literary critics rate him as one of the greatest psychological novelists in world literature. His 1864 novella Notes from Underground is considered to be one of the first works of existentialist literature.',
-    language: 'en',
-    works: [
-      {
-        id: 'crime-and-punishment',
-        title: 'Crime and Punishment',
-        year: 1866,
-        type: 'prose'
-      },
-      {
-        id: 'the-brothers-karamazov',
-        title: 'The Brothers Karamazov',
-        year: 1880,
-        type: 'prose'
-      },
-      {
-        id: 'the-idiot',
-        title: 'The Idiot',
-        year: 1869,
-        type: 'prose'
-      },
-      {
-        id: 'demons',
-        title: 'Demons',
-        year: 1872,
-        type: 'prose'
-      },
-      {
-        id: 'notes-from-underground',
-        title: 'Notes from Underground',
-        year: 1864,
-        type: 'prose'
-      }
-    ],
-    quote: 'The mystery of human existence lies not in just staying alive, but in finding something to live for.',
-    achievements: [
-      'Considered one of the greatest novelists of all time',
-      'Pioneer of existentialism and psychological realism in literature',
-      'His works have been translated into more than 170 languages',
-      'Profound influence on world literature, philosophy, and psychology'
-    ],
-    influences: [
-      'Alexander Pushkin',
-      'Nikolai Gogol',
-      'Victor Hugo',
-      'Charles Dickens',
-      'Orthodox Christianity'
-    ],
-    timeline: [
-      { year: 1821, event: 'Born in Moscow, Russian Empire' },
-      { year: 1837, event: 'Mother died; sent to military engineering school in St. Petersburg' },
-      { year: 1839, event: 'Father murdered by his own serfs' },
-      { year: 1846, event: 'Published first novel "Poor Folk"' },
-      { year: 1849, event: 'Arrested for involvement with the Petrashevsky Circle' },
-      { year: 1849, event: 'Sentenced to death, reprieved at the last minute' },
-      { year: 1850, event: 'Exiled to Siberia for four years of hard labor' },
-      { year: 1854, event: 'Released from prison camp but forced to serve in the Siberian Army' },
-      { year: 1859, event: 'Allowed to return to European Russia' },
-      { year: 1861, event: 'Started literary journal "Time" with his brother Mikhail' },
-      { year: 1864, event: 'Published "Notes from Underground"' },
-      { year: 1866, event: 'Published "Crime and Punishment"' },
-      { year: 1867, event: 'Married Anna Snitkina, his stenographer' },
-      { year: 1880, event: 'Completed "The Brothers Karamazov"' },
-      { year: 1881, event: 'Died in St. Petersburg at the age of 59' }
-    ]
-  },
-  {
     id: 'rainer-maria-rilke',
     name: 'Rainer Maria Rilke',
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Rilke_1900.jpg/800px-Rilke_1900.jpg',
@@ -2115,142 +2042,6 @@ export const authors: Author[] = [
     ]
   },
   {
-    id: 'abdullah-hussein',
-    name: 'Abdullah Hussein',
-    image: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9c/Abdullah_Hussein.jpg/330px-Abdullah_Hussein.jpg',
-    birthYear: 1931,
-    deathYear: 2015,
-    birthPlace: 'Rawalpindi, British India (now Pakistan)',
-    bio: 'Abdullah Hussein (Urdu: عبداللہ حسین), born Mohammed Khan, was a Pakistani novelist and screenwriter. He is best known for his novel Udaas Naslein (The Weary Generations), which won the Adamjee Award in 1963. The novel depicts the lives of ordinary people during the British Raj and the early years of Pakistan\'s independence. Hussein was a reclusive writer who spent much of his life in the UK, working as a chemical engineer. He wrote in both Urdu and English, and translated his own works between the two languages.',
-    language: 'ur',
-    works: [
-      {
-        id: 'udaas-naslein',
-        title: 'Udaas Naslein (The Weary Generations)',
-        year: 1963,
-        type: 'prose'
-      },
-      {
-        id: 'baagh',
-        title: 'Baagh (The Garden)',
-        year: 1982,
-        type: 'prose'
-      },
-      {
-        id: 'qaid',
-        title: 'Qaid (Captivity)',
-        year: 1989,
-        type: 'prose'
-      },
-      {
-        id: 'nashaib',
-        title: 'Nashaib (Descent)',
-        year: 1995,
-        type: 'prose'
-      },
-      {
-        id: 'emigre-journeys',
-        title: 'Émigré Journeys',
-        year: 2000,
-        type: 'prose'
-      }
-    ],
-    quote: 'Literature is not created in a vacuum. It is the outcome of a society\'s collective experience.',
-    achievements: [
-      'Adamjee Award for Udaas Naslein (1963)',
-      'Prime Minister\'s Award for Literature (1970)',
-      'Sitara-i-Imtiaz (Star of Excellence) awarded by the Government of Pakistan',
-      'His novel Udaas Naslein is considered a classic of Urdu literature'
-    ],
-    influences: [
-      'James Joyce',
-      'Virginia Woolf',
-      'Fyodor Dostoevsky',
-      'Partition of India',
-      'Colonial and post-colonial Pakistani society'
-    ],
-    timeline: [
-      { year: 1931, event: 'Born in Rawalpindi, British India (now Pakistan)' },
-      { year: 1951, event: 'Graduated with a degree in chemical engineering' },
-      { year: 1963, event: 'Published Udaas Naslein (The Weary Generations)' },
-      { year: 1968, event: 'Moved to the United Kingdom' },
-      { year: 1982, event: 'Published Baagh (The Garden)' },
-      { year: 1993, event: 'Translated Udaas Naslein into English as The Weary Generations' },
-      { year: 2000, event: 'Published Émigré Journeys in English' },
-      { year: 2015, event: 'Died in Lahore, Pakistan' }
-    ]
-  },
-  {
-    id: 'virginia-woolf',
-    name: 'Virginia Woolf',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/George_Charles_Beresford_-_Virginia_Woolf_in_1902_-_Restoration.jpg/330px-George_Charles_Beresford_-_Virginia_Woolf_in_1902_-_Restoration.jpg',
-    birthYear: 1882,
-    deathYear: 1941,
-    birthPlace: 'London, England',
-    bio: 'Adeline Virginia Woolf was an English writer, considered one of the most important modernist 20th-century authors and a pioneer in the use of stream of consciousness as a narrative device. Woolf was born into an affluent household in South Kensington, London. Her father, Sir Leslie Stephen, was a notable historian, author, critic and mountaineer. Woolf\'s most famous works include the novels Mrs Dalloway (1925), To the Lighthouse (1927), and Orlando (1928), and the book-length essay A Room of One\'s Own (1929). The latter contains her famous dictum, "A woman must have money and a room of her own if she is to write fiction." Woolf suffered from severe bouts of mental illness throughout her life, now believed to have been bipolar disorder, and committed suicide by drowning in 1941 at the age of 59.',
-    language: 'en',
-    works: [
-      {
-        id: 'mrs-dalloway',
-        title: 'Mrs Dalloway',
-        year: 1925,
-        type: 'prose'
-      },
-      {
-        id: 'to-the-lighthouse',
-        title: 'To the Lighthouse',
-        year: 1927,
-        type: 'prose'
-      },
-      {
-        id: 'orlando',
-        title: 'Orlando: A Biography',
-        year: 1928,
-        type: 'prose'
-      },
-      {
-        id: 'a-room-of-ones-own',
-        title: 'A Room of One\'s Own',
-        year: 1929,
-        type: 'prose'
-      },
-      {
-        id: 'the-waves',
-        title: 'The Waves',
-        year: 1931,
-        type: 'prose'
-      }
-    ],
-    quote: 'A woman must have money and a room of her own if she is to write fiction.',
-    achievements: [
-      'Pioneered the stream-of-consciousness literary technique',
-      'Founding member of the Bloomsbury Group',
-      'Her works have been translated into more than 50 languages',
-      'Considered one of the greatest novelists of the 20th century'
-    ],
-    influences: [
-      'Marcel Proust',
-      'James Joyce',
-      'Greek classical literature',
-      'Feminism',
-      'Modernism'
-    ],
-    timeline: [
-      { year: 1882, event: 'Born in London, England' },
-      { year: 1895, event: 'Death of her mother, leading to her first mental breakdown' },
-      { year: 1904, event: 'Death of her father, Sir Leslie Stephen' },
-      { year: 1905, event: 'Began writing for The Times Literary Supplement' },
-      { year: 1912, event: 'Married Leonard Woolf' },
-      { year: 1917, event: 'Founded Hogarth Press with her husband' },
-      { year: 1922, event: 'Met Vita Sackville-West, who became her lover' },
-      { year: 1925, event: 'Published Mrs Dalloway' },
-      { year: 1927, event: 'Published To the Lighthouse' },
-      { year: 1929, event: 'Published A Room of One\'s Own' },
-      { year: 1941, event: 'Committed suicide by drowning in the River Ouse, Sussex' }
-    ]
-  }
-,
-  {
     id: 'william-shakespeare',
     name: 'William Shakespeare',
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Shakespeare.jpg/330px-Shakespeare.jpg',
@@ -2694,6 +2485,295 @@ export const authors: Author[] = [
       { year: 2007, event: 'Awarded the Presidential Medal of Freedom' },
       { year: 2015, event: 'Published Go Set a Watchman' },
       { year: 2016, event: 'Died in Monroeville, Alabama' }
+    ]
+  },
+  {
+    id: 'hashim-nadeem',
+    name: 'Hashim Nadeem',
+    image: '/images/authors/hashim-nadeem.jpg',
+    birthYear: 1970,
+    birthPlace: 'Lahore, Pakistan',
+    bio: 'Hashim Nadeem is a contemporary Pakistani novelist and screenwriter, best known for his spiritual and romantic Urdu novels. He has gained immense popularity for his unique storytelling style that beautifully blends love, spirituality, and human emotions. His most famous work "Khuda Aur Mohabbat" (God and Love) became a cultural phenomenon and was adapted into a highly successful television drama series. Nadeem\'s writing often explores themes of divine love, human relationships, and the spiritual journey of his characters. His novels are known for their deep emotional impact and philosophical undertones, making him one of the most beloved contemporary Urdu novelists.',
+    language: 'ur',
+    works: [
+      {
+        id: 'khuda-aur-mohabbat',
+        title: 'خدا اور محبت (Khuda Aur Mohabbat)',
+        year: 2013,
+        type: 'prose'
+      },
+      {
+        id: 'pani-da-rang',
+        title: 'پانی دا رنگ (Pani Da Rang)',
+        year: 2012,
+        type: 'prose'
+      },
+      {
+        id: 'bachpan-ka-december',
+        title: 'بچپن کا دسمبر (Bachpan Ka December)',
+        year: 2015,
+        type: 'prose'
+      }
+    ],
+    quote: 'خدا اور محبت - یہ دونوں ایک ہی سکے کے دو رخ ہیں۔ جب محبت خدا کی رضا کے لیے ہو، تو وہ سب سے خوبصورت چیز ہے۔',
+    achievements: [
+      'Best Spiritual Romance Novel Award (2014)',
+      'Khuda Aur Mohabbat adapted into hit TV drama series',
+      'Readers Choice Award for contemporary Urdu fiction',
+      'One of the most popular contemporary Urdu novelists'
+    ],
+    influences: [
+      'Classical Urdu literature',
+      'Sufi philosophy',
+      'Contemporary romance',
+      'Spiritual teachings'
+    ],
+    timeline: [
+      { year: 1970, event: 'Born in Lahore, Pakistan' },
+      { year: 2012, event: 'Published "Pani Da Rang"' },
+      { year: 2013, event: 'Published "Khuda Aur Mohabbat"' },
+      { year: 2015, event: 'Published "Bachpan Ka December"' },
+      { year: 2016, event: 'Khuda Aur Mohabbat adapted for television' }
+    ]
+  },
+  {
+    id: 'nimra-ahmad',
+    name: 'Nimra Ahmad',
+    image: '/images/authors/nimra-ahmad.jpg',
+    birthYear: 1980,
+    birthPlace: 'Karachi, Pakistan',
+    bio: 'Nimra Ahmad is a prominent Pakistani novelist known for her Islamic fiction and contemporary Urdu literature. She has gained widespread recognition for her novels that beautifully combine romance, spirituality, and social issues. Her works often feature strong female protagonists who navigate complex life situations while maintaining their faith and values. Ahmad\'s writing style is characterized by its emotional depth, realistic character development, and meaningful storylines that resonate with readers across different age groups. Her novels like "Jannat Ke Pattay," "Namal," and "Mushaf" have become bestsellers and have been adapted for television.',
+    language: 'ur',
+    works: [
+      {
+        id: 'jannat-ke-pattay',
+        title: 'جنت کے پتے (Jannat Ke Pattay)',
+        year: 2015,
+        type: 'prose'
+      },
+      {
+        id: 'namal',
+        title: 'نمل (Namal)',
+        year: 2018,
+        type: 'prose'
+      },
+      {
+        id: 'mushaf',
+        title: 'مصحف (Mushaf)',
+        year: 2014,
+        type: 'prose'
+      },
+      {
+        id: 'haalim',
+        title: 'حالم (Haalim)',
+        year: 2019,
+        type: 'prose'
+      }
+    ],
+    quote: 'زندگی میں کامیابی کا راز یہ ہے کہ آپ اپنے ایمان پر قائم رہیں اور اللہ پر بھروسہ کریں۔',
+    achievements: [
+      'Best Islamic Fiction Writer Award',
+      'Multiple novels adapted for television',
+      'Readers Choice Award for Urdu literature',
+      'One of the most influential contemporary Urdu novelists'
+    ],
+    influences: [
+      'Islamic teachings',
+      'Contemporary social issues',
+      'Classical Urdu literature',
+      'Modern storytelling techniques'
+    ],
+    timeline: [
+      { year: 1980, event: 'Born in Karachi, Pakistan' },
+      { year: 2014, event: 'Published "Mushaf"' },
+      { year: 2015, event: 'Published "Jannat Ke Pattay"' },
+      { year: 2018, event: 'Published "Namal"' },
+      { year: 2019, event: 'Published "Haalim"' }
+    ]
+  },
+  {
+    id: 'maha-malik',
+    name: 'Maha Malik',
+    image: '/images/authors/maha-malik.jpg',
+    birthYear: 1985,
+    birthPlace: 'Islamabad, Pakistan',
+    bio: 'Maha Malik is a contemporary Pakistani novelist known for her romantic Urdu fiction. She has gained recognition for her engaging storytelling style and her ability to create compelling characters that resonate with young readers. Her novels often explore themes of love, relationships, and personal growth in modern Pakistani society. Malik\'s writing is characterized by its contemporary relevance and emotional depth, making her a popular choice among readers of Urdu romantic fiction.',
+    language: 'ur',
+    works: [
+      {
+        id: 'roshan-sitara',
+        title: 'روشن ستارہ (Roshan Sitara)',
+        year: 2016,
+        type: 'prose'
+      },
+      {
+        id: 'dil-ki-rani',
+        title: 'دل کی رانی (Dil Ki Rani)',
+        year: 2017,
+        type: 'prose'
+      }
+    ],
+    quote: 'محبت کی روشنی میں ہر دل ایک ستارہ بن جاتا ہے۔',
+    achievements: [
+      'Rising Star in Urdu Literature Award',
+      'Popular Choice Award for Romance Fiction',
+      'Featured in major Urdu literary magazines'
+    ],
+    influences: [
+      'Contemporary romance',
+      'Modern Pakistani society',
+      'Classical Urdu poetry',
+      'Young adult fiction'
+    ],
+    timeline: [
+      { year: 1985, event: 'Born in Islamabad, Pakistan' },
+      { year: 2016, event: 'Published "Roshan Sitara"' },
+      { year: 2017, event: 'Published "Dil Ki Rani"' }
+    ]
+  },
+  {
+    id: 'farhat-ishtiaq',
+    name: 'Farhat Ishtiaq',
+    image: '/images/authors/farhat-ishtiaq.jpg',
+    birthYear: 1975,
+    birthPlace: 'Karachi, Pakistan',
+    bio: 'Farhat Ishtiaq is a renowned Pakistani novelist and screenwriter, best known for her romantic Urdu novels and television dramas. She has gained immense popularity for her emotionally rich storytelling and her ability to create complex, relatable characters. Her most famous work "Humsafar" became a cultural phenomenon and was adapted into one of the most successful Pakistani television dramas. Ishtiaq\'s writing often explores themes of love, family relationships, and social issues in Pakistani society.',
+    language: 'ur',
+    works: [
+      {
+        id: 'humsafar',
+        title: 'ہمسفر (Humsafar)',
+        year: 2011,
+        type: 'prose'
+      },
+      {
+        id: 'diyar-e-dil',
+        title: 'دیار دل (Diyar-e-Dil)',
+        year: 2014,
+        type: 'prose'
+      },
+      {
+        id: 'mata-e-jaan-hai-tu',
+        title: 'متاع جان ہے تو (Mata-e-Jaan Hai Tu)',
+        year: 2016,
+        type: 'prose'
+      }
+    ],
+    quote: 'محبت کی منزل تک پہنچنے کے لیے صبر اور وفا کی ضرورت ہوتی ہے۔',
+    achievements: [
+      'Best Romance Novel Award for Humsafar',
+      'Multiple novels adapted for television',
+      'Lux Style Award for Best Drama Writer',
+      'One of Pakistan\'s most successful drama writers'
+    ],
+    influences: [
+      'Classical Urdu literature',
+      'Pakistani family dynamics',
+      'Contemporary social issues',
+      'Traditional values and modern challenges'
+    ],
+    timeline: [
+      { year: 1975, event: 'Born in Karachi, Pakistan' },
+      { year: 2011, event: 'Published "Humsafar"' },
+      { year: 2012, event: 'Humsafar adapted for television' },
+      { year: 2014, event: 'Published "Diyar-e-Dil"' },
+      { year: 2016, event: 'Published "Mata-e-Jaan Hai Tu"' }
+    ]
+  },
+  {
+    id: 'riffat-siraj',
+    name: 'Riffat Siraj',
+    image: '/images/authors/riffat-siraj.jpg',
+    birthYear: 1978,
+    birthPlace: 'Lahore, Pakistan',
+    bio: 'Riffat Siraj is a Pakistani novelist known for her emotionally compelling Urdu fiction. She has gained recognition for her ability to portray complex human emotions and relationships with depth and sensitivity. Her novels often deal with themes of love, loss, and redemption, exploring the intricacies of human nature and social dynamics. Siraj\'s writing style is characterized by its emotional intensity and realistic character development.',
+    language: 'ur',
+    works: [
+      {
+        id: 'mohabbat-dagh-ki-soorat',
+        title: 'محبت داغ کی صورت (Mohabbat Dagh Ki Soorat)',
+        year: 2015,
+        type: 'prose'
+      }
+    ],
+    quote: 'محبت کبھی کبھی داغ کی طرح دل پر نقش ہو جاتی ہے، جو کبھی مٹتا نہیں۔',
+    achievements: [
+      'Emerging Writer Award',
+      'Recognition for emotional storytelling',
+      'Featured in literary journals'
+    ],
+    influences: [
+      'Human psychology',
+      'Social relationships',
+      'Classical Urdu literature',
+      'Contemporary issues'
+    ],
+    timeline: [
+      { year: 1978, event: 'Born in Lahore, Pakistan' },
+      { year: 2015, event: 'Published "Mohabbat Dagh Ki Soorat"' }
+    ]
+  },
+  {
+    id: 'nicholas-sparks',
+    name: 'Nicholas Sparks',
+    image: '/images/authors/nicholas-sparks.jpg',
+    birthYear: 1965,
+    birthPlace: 'Omaha, Nebraska, USA',
+    bio: 'Nicholas Sparks is an American novelist, screenwriter, and philanthropist. He has published twenty novels and two non-fiction books, several of which have been adapted into major motion pictures. His novels are known for their romantic themes and emotional depth, often exploring love, loss, and the human condition. Many of his works, including "The Notebook," "A Walk to Remember," and "Dear John," have become bestsellers and successful film adaptations.',
+    language: 'en',
+    works: [
+      {
+        id: 'the-notebook',
+        title: 'The Notebook',
+        year: 1996,
+        type: 'prose'
+      },
+      {
+        id: 'a-walk-to-remember',
+        title: 'A Walk to Remember',
+        year: 1999,
+        type: 'prose'
+      },
+      {
+        id: 'dear-john',
+        title: 'Dear John',
+        year: 2006,
+        type: 'prose'
+      },
+      {
+        id: 'the-last-song',
+        title: 'The Last Song',
+        year: 2009,
+        type: 'prose'
+      },
+      {
+        id: 'safe-haven',
+        title: 'Safe Haven',
+        year: 2010,
+        type: 'prose'
+      }
+    ],
+    quote: 'Love is like the wind, you can\'t see it but you can feel it.',
+    achievements: [
+      'Multiple New York Times bestselling author',
+      'Over 115 million copies sold worldwide',
+      'Eleven novels adapted into major motion pictures',
+      'Humanitarian Award from the Red Cross'
+    ],
+    influences: [
+      'Classic American literature',
+      'Southern Gothic tradition',
+      'Personal experiences',
+      'Family relationships'
+    ],
+    timeline: [
+      { year: 1965, event: 'Born in Omaha, Nebraska' },
+      { year: 1988, event: 'Graduated from University of Notre Dame' },
+      { year: 1996, event: 'Published debut novel "The Notebook"' },
+      { year: 1999, event: 'Published "A Walk to Remember"' },
+      { year: 2004, event: 'The Notebook adapted into successful film' },
+      { year: 2006, event: 'Published "Dear John"' },
+      { year: 2010, event: 'Published "Safe Haven"' }
     ]
   }
 ];

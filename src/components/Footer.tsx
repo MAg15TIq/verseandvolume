@@ -65,6 +65,12 @@ export default function Footer() {
                   Contact Us
                 </Link>
               </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="font-serif text-xl mb-4" style={{ fontWeight: 600 }}>Legal</h3>
+            <ul className="space-y-2">
               <li>
                 <Link href={localizedPath('/terms')} className="text-paper-700 dark:text-paper-400 hover:text-paper-900 dark:hover:text-paper-200">
                   Terms & Conditions
@@ -73,6 +79,16 @@ export default function Footer() {
               <li>
                 <Link href={localizedPath('/privacy')} className="text-paper-700 dark:text-paper-400 hover:text-paper-900 dark:hover:text-paper-200">
                   Privacy Policy
+                </Link>
+              </li>
+              <li>
+                <Link href={localizedPath('/cookies')} className="text-paper-700 dark:text-paper-400 hover:text-paper-900 dark:hover:text-paper-200">
+                  Cookie Policy
+                </Link>
+              </li>
+              <li>
+                <Link href={localizedPath('/disclaimer')} className="text-paper-700 dark:text-paper-400 hover:text-paper-900 dark:hover:text-paper-200">
+                  Disclaimer
                 </Link>
               </li>
             </ul>
@@ -96,15 +112,23 @@ export default function Footer() {
 
         <div className="mt-8 pt-8 border-t border-paper-300 dark:border-paper-800 text-center text-paper-600 dark:text-paper-500">
           <p>&copy; {year} {t('site.title')}. {t('footer.rights')}.</p>
-          <div className="mt-2 flex justify-center space-x-4 text-sm">
+          <div className="mt-2 flex justify-center flex-wrap gap-x-4 gap-y-2 text-sm">
             <Link href={localizedPath('/terms')} className="text-paper-600 dark:text-paper-500 hover:text-paper-800 dark:hover:text-paper-300">
               Terms
             </Link>
-            <span>•</span>
+            <span className="hidden sm:inline">•</span>
             <Link href={localizedPath('/privacy')} className="text-paper-600 dark:text-paper-500 hover:text-paper-800 dark:hover:text-paper-300">
               Privacy
             </Link>
-            <span>•</span>
+            <span className="hidden sm:inline">•</span>
+            <Link href={localizedPath('/cookies')} className="text-paper-600 dark:text-paper-500 hover:text-paper-800 dark:hover:text-paper-300">
+              Cookies
+            </Link>
+            <span className="hidden sm:inline">•</span>
+            <Link href={localizedPath('/disclaimer')} className="text-paper-600 dark:text-paper-500 hover:text-paper-800 dark:hover:text-paper-300">
+              Disclaimer
+            </Link>
+            <span className="hidden sm:inline">•</span>
             <Link href={localizedPath('/contact')} className="text-paper-600 dark:text-paper-500 hover:text-paper-800 dark:hover:text-paper-300">
               Contact
             </Link>

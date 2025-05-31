@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import HtmlAttributes from "@/components/HtmlAttributes";
 import NavigationTestComponent from "@/components/NavigationTestComponent";
 import Breadcrumb from "@/components/Breadcrumb";
+import CookieConsent from "@/components/CookieConsent";
 import { AudioProvider } from "@/contexts/AudioContext";
 
 export default async function LocaleLayout({
@@ -32,6 +33,7 @@ export default async function LocaleLayout({
             {children}
           </main>
           <Footer />
+          <CookieConsent />
         </div>
       </AudioProvider>
     </NextIntlClientProvider>

@@ -75,12 +75,27 @@ export default function TermsPage() {
             <li>Transfer the Content to another person or &ldquo;mirror&rdquo; the Content on any other server</li>
           </ul>
 
-          <h2>6. Third-Party Links</h2>
+          <h2>6. Advertising and Google AdSense</h2>
+          <p>
+            Our Website displays advertisements through Google AdSense and other advertising partners. By using our Website, you acknowledge and agree to the following:
+          </p>
+          <ul>
+            <li>Advertisements are provided by third-party advertisers and we do not endorse or guarantee the products or services advertised</li>
+            <li>Google AdSense may use cookies and other tracking technologies to serve personalized advertisements based on your browsing behavior</li>
+            <li>We may receive compensation from advertising partners when you interact with advertisements</li>
+            <li>You interact with advertisements at your own risk and we are not responsible for any transactions or issues arising from such interactions</li>
+            <li>Advertisement content is subject to the advertiser&rsquo;s own terms and conditions</li>
+          </ul>
+          <p>
+            For more information about how Google AdSense collects and uses data, please review Google&rsquo;s Privacy Policy and AdSense Terms.
+          </p>
+
+          <h2>7. Third-Party Links</h2>
           <p>
             Our Website may contain links to third-party websites or services that are not owned or controlled by Verse & Volume. We have no control over, and assume no responsibility for, the content, privacy policies, or practices of any third-party websites or services. You further acknowledge and agree that Verse & Volume shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with the use of or reliance on any such content, goods, or services available on or through any such websites or services.
           </p>
 
-          <h2>7. Termination</h2>
+          <h2>8. Termination</h2>
           <p>
             We may terminate or suspend your account and bar access to the Website immediately, without prior notice or liability, under our sole discretion, for any reason whatsoever and without limitation, including but not limited to a breach of the Terms.
           </p>
@@ -88,12 +103,12 @@ export default function TermsPage() {
             If you wish to terminate your account, you may simply discontinue using the Website, or notify us that you wish to delete your account.
           </p>
 
-          <h2>8. Limitation of Liability</h2>
+          <h2>9. Limitation of Liability</h2>
           <p>
             In no event shall Verse & Volume, nor its directors, employees, partners, agents, suppliers, or affiliates, be liable for any indirect, incidental, special, consequential or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from your access to or use of or inability to access or use the Website.
           </p>
 
-          <h2>9. Changes to Terms</h2>
+          <h2>10. Changes to Terms</h2>
           <p>
             We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material, we will provide at least 30 days&rsquo; notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.
           </p>
@@ -101,7 +116,7 @@ export default function TermsPage() {
             By continuing to access or use our Website after any revisions become effective, you agree to be bound by the revised terms. If you do not agree to the new terms, you are no longer authorized to use the Website.
           </p>
 
-          <h2>10. Governing Law</h2>
+          <h2>11. Governing Law</h2>
           <p>
             These Terms shall be governed and construed in accordance with the laws applicable in the jurisdiction where Verse & Volume operates, without regard to its conflict of law provisions.
           </p>
@@ -109,7 +124,7 @@ export default function TermsPage() {
             Our failure to enforce any right or provision of these Terms will not be considered a waiver of those rights. If any provision of these Terms is held to be invalid or unenforceable by a court, the remaining provisions of these Terms will remain in effect.
           </p>
 
-          <h2>11. Contact Us</h2>
+          <h2>12. Contact Us</h2>
           <p>
             If you have any questions about these Terms, please contact us at <a href="mailto:legal@verseandvolume.com" className="text-paper-700 dark:text-paper-300 hover:text-paper-900 dark:hover:text-paper-100">legal@verseandvolume.com</a>.
           </p>
