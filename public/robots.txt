@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://verseandvolume.online/sitemap.xml
+
+# AdSense
+Allow: /ads.txt
+
+# Important pages
+Allow: /poetry/
+Allow: /novels/
+Allow: /ghazals/
+Allow: /prose/
+Allow: /quotes/
+Allow: /audiobooks/
+
+# Block unnecessary crawling
+Disallow: /api/
+Disallow: /_next/
+Disallow: /scripts/
+Disallow: /node_modules/

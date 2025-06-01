@@ -34,13 +34,40 @@ export default function RootLayout({
   return (
     <html className="scroll-smooth" style={inlineStyle}>
       <head>
+        {/* SEO Meta Tags */}
+        <meta name="description" content="Verse and Volume - A literary sanctuary featuring poetry, novels, ghazals, prose, quotes, and audiobooks. Discover timeless literature in English and Urdu." />
+        <meta name="keywords" content="poetry, novels, ghazals, prose, quotes, audiobooks, literature, English poetry, Urdu poetry, classic novels, literary works" />
+        <meta name="author" content="Dentist Hafsa Rehman (Aima Khan)" />
+        <meta name="robots" content="index, follow" />
+        <meta name="language" content="en" />
+        <meta name="revisit-after" content="7 days" />
+
+        {/* Open Graph Meta Tags */}
+        <meta property="og:title" content="Verse and Volume - Literary Sanctuary" />
+        <meta property="og:description" content="Discover timeless literature featuring poetry, novels, ghazals, prose, quotes, and audiobooks in English and Urdu." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://verseandvolume.online/" />
+        <meta property="og:site_name" content="Verse and Volume" />
+        <meta property="og:locale" content="en_US" />
+
+        {/* Twitter Card Meta Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Verse and Volume - Literary Sanctuary" />
+        <meta name="twitter:description" content="Discover timeless literature featuring poetry, novels, ghazals, prose, quotes, and audiobooks." />
+
+        {/* Google Site Verification */}
+        <meta name="google-site-verification" content="your-google-verification-code" />
+
         {/* Google AdSense Meta Tag */}
         <meta name="google-adsense-account" content="ca-pub-5754219619080083" />
+
+        {/* Canonical URL */}
+        <link rel="canonical" href="https://verseandvolume.online/" />
 
         {/* Google Analytics (gtag.js) */}
         <Script
           async
-          src="https://www.googletagmanager.com/gtag/js?id=G-W3HVP0ELHK"
+          src="https://www.googletagmanager.com/gtag/js?id=G-KH9FBLXVRL"
           strategy="afterInteractive"
         />
         <Script id="google-analytics" strategy="afterInteractive">
@@ -48,7 +75,7 @@ export default function RootLayout({
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-W3HVP0ELHK');
+            gtag('config', 'G-KH9FBLXVRL');
           `}
         </Script>
 
@@ -59,6 +86,43 @@ export default function RootLayout({
           crossOrigin="anonymous"
           strategy="afterInteractive"
         />
+
+        {/* Structured Data (JSON-LD) */}
+        <Script id="structured-data" type="application/ld+json" strategy="afterInteractive">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "Verse and Volume",
+              "description": "A literary sanctuary featuring poetry, novels, ghazals, prose, quotes, and audiobooks in English and Urdu",
+              "url": "https://verseandvolume.online/",
+              "author": {
+                "@type": "Person",
+                "name": "Dentist Hafsa Rehman",
+                "alternateName": "Aima Khan"
+              },
+              "publisher": {
+                "@type": "Organization",
+                "name": "Verse and Volume",
+                "url": "https://verseandvolume.online/"
+              },
+              "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://verseandvolume.online/search?q={search_term_string}",
+                "query-input": "required name=search_term_string"
+              },
+              "mainEntity": {
+                "@type": "CreativeWork",
+                "@id": "https://verseandvolume.online/#website",
+                "name": "Verse and Volume Literary Collection",
+                "description": "Comprehensive collection of poetry, novels, ghazals, prose, quotes, and audiobooks",
+                "genre": ["Poetry", "Literature", "Novels", "Ghazals", "Prose"],
+                "inLanguage": ["en", "ur"],
+                "isAccessibleForFree": true
+              }
+            }
+          `}
+        </Script>
 
         {/* Add a script to ensure consistent HTML attributes between server and client */}
         <Script id="handle-html-attributes" strategy="beforeInteractive">
