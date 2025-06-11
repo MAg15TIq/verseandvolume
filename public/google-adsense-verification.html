@@ -5,11 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google AdSense Verification - Verse and Volume</title>
     
-    <!-- Google AdSense Meta Tag -->
-    <meta name="google-adsense-account" content="ca-pub-5754219619080083" />
-    
-    <!-- Google AdSense Script -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5754219619080083" crossorigin="anonymous"></script>
+
     
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-W3HVP0ELHK"></script>
@@ -57,11 +53,10 @@
 
     <div class="verification-info">
         <h3>🔍 AdSense Integration Status</h3>
-        <div class="status success">✅ AdSense script is properly loaded</div>
-        <div class="status success">✅ Publisher ID: ca-pub-5754219619080083</div>
+        <div class="status info">ℹ️ AdSense has been removed from this website</div>
         <div class="status success">✅ Google Analytics tracking active</div>
-        <div class="status success">✅ ads.txt file configured</div>
-        <div class="status success">✅ Site ready for AdSense approval</div>
+        <div class="status info">ℹ️ ads.txt file removed</div>
+        <div class="status success">✅ Website is now AdSense-free</div>
     </div>
 
     <div class="verification-info">
@@ -96,20 +91,20 @@
             <li><a href="/audiobooks">Audiobooks</a></li>
             <li><a href="/privacy">Privacy Policy</a></li>
             <li><a href="/terms">Terms of Service</a></li>
-            <li><a href="/ads.txt">ads.txt</a></li>
+
         </ul>
     </div>
 
     <script>
-        // Verify AdSense script loading
+        // Verify that AdSense has been removed
         document.addEventListener('DOMContentLoaded', function() {
             const adSenseScript = document.querySelector('script[src*="pagead2.googlesyndication.com"]');
             if (adSenseScript) {
-                console.log('✅ AdSense script loaded successfully');
+                console.log('⚠️ AdSense script still found - removal incomplete');
             } else {
-                console.log('❌ AdSense script not found');
+                console.log('✅ AdSense script successfully removed');
             }
-            
+
             // Check if gtag is available
             if (typeof gtag !== 'undefined') {
                 console.log('✅ Google Analytics loaded successfully');

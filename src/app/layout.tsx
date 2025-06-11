@@ -58,8 +58,7 @@ export default function RootLayout({
         {/* Google Site Verification */}
         <meta name="google-site-verification" content="your-google-verification-code" />
 
-        {/* Google AdSense Meta Tag */}
-        <meta name="google-adsense-account" content="ca-pub-5754219619080083" />
+
 
         {/* Canonical URL */}
         <link rel="canonical" href="https://verseandvolume.online/" />
@@ -79,13 +78,7 @@ export default function RootLayout({
           `}
         </Script>
 
-        {/* Google AdSense */}
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5754219619080083"
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
+
 
         {/* Grow by MediaVine - Direct Script for Better Detection */}
         <script

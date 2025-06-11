@@ -20,12 +20,7 @@ export default function Document() {
           }}
         />
 
-        {/* Google AdSense */}
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5754219619080083"
-          crossOrigin="anonymous"
-        />
+
 
         {/* Grow by MediaVine */}
         <script

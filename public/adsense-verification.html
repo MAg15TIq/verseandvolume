@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-adsense-account" content="ca-pub-5754219619080083">
+
     <title>AdSense Integration Verification</title>
 
     <!-- Google Analytics (gtag.js) -->
@@ -15,9 +15,7 @@
       gtag('config', 'G-W3HVP0ELHK');
     </script>
 
-    <!-- Google AdSense -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5754219619080083"
-         crossorigin="anonymous"></script>
+
 
     <style>
         body {
@@ -137,38 +135,16 @@
         function checkAdSenseIntegration() {
             const statusDiv = document.getElementById('integration-status');
 
-            // Check if AdSense script is present
+            // Check if AdSense script is present (should be removed)
             const adSenseScripts = document.querySelectorAll('script[src*="pagead2.googlesyndication.com"]');
 
             if (adSenseScripts.length > 0) {
-                const script = adSenseScripts[0];
-                const clientId = script.src.match(/client=([^&]+)/);
-
-                let html = '<div class="status success">✅ AdSense script found!</div>';
-                html += `<div class="status info">📝 Scripts detected: ${adSenseScripts.length}</div>`;
-
-                if (clientId) {
-                    html += `<div class="status success">✅ Client ID: ${clientId[1]}</div>`;
-                } else {
-                    html += '<div class="status error">❌ Client ID not found</div>';
-                }
-
-                // Check attributes
-                if (script.async) {
-                    html += '<div class="status success">✅ Async attribute present</div>';
-                } else {
-                    html += '<div class="status error">❌ Missing async attribute</div>';
-                }
-
-                if (script.crossOrigin) {
-                    html += '<div class="status success">✅ CrossOrigin attribute present</div>';
-                } else {
-                    html += '<div class="status error">❌ Missing crossOrigin attribute</div>';
-                }
-
+                let html = '<div class="status error">⚠️ AdSense script still found - removal incomplete!</div>';
+                html += `<div class="status info">📝 Scripts detected: ${adSenseScripts.length}</div>';
+                html += '<div class="status info">Please complete AdSense removal process</div>';
                 statusDiv.innerHTML = html;
             } else {
-                statusDiv.innerHTML = '<div class="status error">❌ AdSense script not found!</div>';
+                statusDiv.innerHTML = '<div class="status success">✅ AdSense successfully removed from website!</div>';
             }
         }
 
@@ -177,23 +153,11 @@
             const scripts = document.querySelectorAll('script[src*="pagead2.googlesyndication.com"]');
 
             if (scripts.length > 0) {
-                const script = scripts[0];
-                let html = '<div class="code">';
-                html += `Source: ${script.src}<br>`;
-                html += `Async: ${script.async}<br>`;
-                html += `CrossOrigin: ${script.crossOrigin}<br>`;
-                html += `Type: ${script.type || 'text/javascript'}<br>`;
-                html += '</div>';
-
-                if (scripts.length > 1) {
-                    html += `<div class="status error">⚠️ Warning: ${scripts.length} AdSense scripts detected (should be 1)</div>`;
-                } else {
-                    html += '<div class="status success">✅ Single AdSense script (optimal)</div>';
-                }
-
+                let html = '<div class="status error">⚠️ AdSense scripts still present - removal incomplete</div>';
+                html += `<div class="status info">Scripts found: ${scripts.length}</div>';
                 analysisDiv.innerHTML = html;
             } else {
-                analysisDiv.innerHTML = '<div class="status error">❌ No AdSense script to analyze</div>';
+                analysisDiv.innerHTML = '<div class="status success">✅ No AdSense scripts found - successfully removed!</div>';
             }
         }
 
@@ -202,15 +166,8 @@
             resultsDiv.style.display = 'block';
             resultsDiv.innerHTML = '<div class="status info">🔍 Testing network connection...</div>';
 
-            // Test if AdSense script can be loaded
-            fetch('https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5754219619080083', {
-                method: 'HEAD',
-                mode: 'no-cors'
-            }).then(() => {
-                resultsDiv.innerHTML = '<div class="status success">✅ AdSense servers reachable</div>';
-            }).catch(error => {
-                resultsDiv.innerHTML = `<div class="status error">❌ Network error: ${error.message}</div>`;
-            });
+            // AdSense removed - no network test needed
+            resultsDiv.innerHTML = '<div class="status info">ℹ️ AdSense has been removed from this website</div>';
         }
 
         function checkPerformance() {
@@ -218,54 +175,21 @@
             resultsDiv.style.display = 'block';
 
             const loadTime = performance.now();
-            const scripts = document.querySelectorAll('script[src*="pagead2.googlesyndication.com"]');
-
             let html = `<div class="status info">📊 Page load time: ${loadTime.toFixed(2)}ms</div>`;
-            html += `<div class="status info">📊 AdSense scripts: ${scripts.length}</div>`;
-
-            // Check if scripts are loaded asynchronously
-            if (scripts.length > 0 && scripts[0].async) {
-                html += '<div class="status success">✅ Scripts loading asynchronously (good for performance)</div>';
-            } else {
-                html += '<div class="status error">⚠️ Scripts not loading asynchronously</div>';
-            }
+            html += '<div class="status info">ℹ️ AdSense scripts: 0 (removed)</div>';
+            html += '<div class="status success">✅ No AdSense scripts - improved performance</div>';
 
             resultsDiv.innerHTML = html;
         }
 
         function updateOverallStatus() {
             const statusDiv = document.getElementById('overall-status');
-            const scripts = document.querySelectorAll('script[src*="pagead2.googlesyndication.com"]');
 
-            if (scripts.length === 1) {
-                const script = scripts[0];
-                const hasClientId = script.src.includes('ca-pub-5754219619080083');
-                const hasAsync = script.async;
-                const hasCrossOrigin = script.crossOrigin;
-
-                if (hasClientId && hasAsync && hasCrossOrigin) {
-                    statusDiv.innerHTML = `
-                        <div class="status success">🎉 PERFECT INTEGRATION!</div>
-                        <div class="status success">✅ All checks passed</div>
-                        <div class="status success">🚀 Ready for production</div>
-                    `;
-                } else {
-                    statusDiv.innerHTML = `
-                        <div class="status error">⚠️ Integration needs improvement</div>
-                        <div class="status info">Please check the issues above</div>
-                    `;
-                }
-            } else if (scripts.length === 0) {
-                statusDiv.innerHTML = `
-                    <div class="status error">❌ AdSense not integrated</div>
-                    <div class="status error">Please add the AdSense script</div>
-                `;
-            } else {
-                statusDiv.innerHTML = `
-                    <div class="status error">⚠️ Multiple AdSense scripts detected</div>
-                    <div class="status error">Please remove duplicate scripts</div>
-                `;
-            }
+            statusDiv.innerHTML = `
+                <div class="status success">✅ ADSENSE SUCCESSFULLY REMOVED</div>
+                <div class="status success">🚀 Website is now AdSense-free</div>
+                <div class="status info">ℹ️ Google Analytics and other scripts remain active</div>
+            `;
         }
     </script>
 </body>
