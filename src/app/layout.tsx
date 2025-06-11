@@ -87,25 +87,24 @@ export default function RootLayout({
           strategy="afterInteractive"
         />
 
-        {/* Grow by MediaVine */}
-        <Script
-          id="grow-by-mediavine"
-          strategy="afterInteractive"
+        {/* Grow by MediaVine - Direct Script for Better Detection */}
+        <script
           data-grow-initializer=""
-        >
-          {`
-            !(function(){
-              window.growMe||((window.growMe=function(e){window.growMe._.push(e);}),(window.growMe._=[]));
-              var e=document.createElement("script");
-              (e.type="text/javascript"),
-              (e.src="https://faves.grow.me/main.js"),
-              (e.defer=!0),
-              e.setAttribute("data-grow-faves-site-id","U2l0ZTpkMWNiMjgxMC1iNmFjLTRiNGItOTUwMC01NTgxNDMwMzY3NjI=");
-              var t=document.getElementsByTagName("script")[0];
-              t.parentNode.insertBefore(e,t);
-            })();
-          `}
-        </Script>
+          dangerouslySetInnerHTML={{
+            __html: `
+              !(function(){
+                window.growMe||((window.growMe=function(e){window.growMe._.push(e);}),(window.growMe._=[]));
+                var e=document.createElement("script");
+                (e.type="text/javascript"),
+                (e.src="https://faves.grow.me/main.js"),
+                (e.defer=!0),
+                e.setAttribute("data-grow-faves-site-id","U2l0ZTpkMWNiMjgxMC1iNmFjLTRiNGItOTUwMC01NTgxNDMwMzY3NjI=");
+                var t=document.getElementsByTagName("script")[0];
+                t.parentNode.insertBefore(e,t);
+              })();
+            `
+          }}
+        />
 
         {/* Structured Data (JSON-LD) */}
         <Script id="structured-data" type="application/ld+json" strategy="afterInteractive">

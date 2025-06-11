@@ -58,8 +58,53 @@ class GrowMediaVineTest {
       this.logFileResult(result);
     }
 
+    // Test live website
+    await this.testLiveWebsite();
+
     this.generateSummary();
     this.logSummary();
+  }
+
+  /**
+   * Test live website for Grow by MediaVine script
+   */
+  async testLiveWebsite() {
+    console.log('\n🌐 Testing Live Website');
+    console.log('-'.repeat(30));
+
+    try {
+      const https = require('https');
+      const url = 'https://verseandvolume.online';
+
+      const response = await new Promise((resolve, reject) => {
+        https.get(url, (res) => {
+          let data = '';
+          res.on('data', (chunk) => data += chunk);
+          res.on('end', () => resolve(data));
+        }).on('error', reject);
+      });
+
+      const hasGrowScript = this.growPattern.test(response);
+      const hasSiteId = this.siteIdPattern.test(response);
+
+      console.log(`✅ Website accessible: ${url}`);
+      console.log(`${hasGrowScript ? '✅' : '❌'} Grow script found in HTML`);
+      console.log(`${hasSiteId ? '✅' : '❌'} Site ID found in HTML`);
+
+      if (hasGrowScript && hasSiteId) {
+        console.log('🎉 Grow by MediaVine script is properly loaded on live website!');
+        console.log('\n📋 Next Steps:');
+        console.log('   1. Wait 24-48 hours for Grow to detect the script');
+        console.log('   2. Check your Grow by MediaVine dashboard');
+        console.log('   3. Verify your domain is approved in Grow settings');
+        console.log('   4. Ensure your site meets traffic requirements');
+      } else {
+        console.log('❌ Script not found on live website');
+      }
+
+    } catch (error) {
+      console.log(`❌ Error testing live website: ${error.message}`);
+    }
   }
 
   /**
