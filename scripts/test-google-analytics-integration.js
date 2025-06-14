@@ -28,14 +28,7 @@ const testFiles = [
       'G-W3HVP0ELHK'
     ]
   },
-  {
-    path: 'public/adsense-verification.html',
-    type: 'Static HTML - AdSense Verification',
-    expectedPatterns: [
-      'googletagmanager\\.com/gtag/js\\?id=G-W3HVP0ELHK',
-      'G-W3HVP0ELHK'
-    ]
-  },
+
   {
     path: 'public/demo-audiobook-test.html',
     type: 'Static HTML - Demo Audiobook Test',

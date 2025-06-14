@@ -75,19 +75,19 @@ export default function TermsPage() {
             <li>Transfer the Content to another person or &ldquo;mirror&rdquo; the Content on any other server</li>
           </ul>
 
-          <h2>6. Advertising and Google AdSense</h2>
+          <h2>6. Third-Party Services</h2>
           <p>
-            Our Website displays advertisements through Google AdSense and other advertising partners. By using our Website, you acknowledge and agree to the following:
+            Our Website uses third-party services to enhance functionality and user experience. By using our Website, you acknowledge and agree to the following:
           </p>
           <ul>
-            <li>Advertisements are provided by third-party advertisers and we do not endorse or guarantee the products or services advertised</li>
-            <li>Google AdSense may use cookies and other tracking technologies to serve personalized advertisements based on your browsing behavior</li>
-            <li>We may receive compensation from advertising partners when you interact with advertisements</li>
-            <li>You interact with advertisements at your own risk and we are not responsible for any transactions or issues arising from such interactions</li>
-            <li>Advertisement content is subject to the advertiser&rsquo;s own terms and conditions</li>
+            <li>Third-party services may collect data according to their own privacy policies</li>
+            <li>We use Google Analytics to understand website usage and improve user experience</li>
+            <li>We use Grow by MediaVine for website optimization and performance features</li>
+            <li>You interact with third-party services at your own risk and we are not responsible for any issues arising from such interactions</li>
+            <li>Third-party service content and functionality is subject to their own terms and conditions</li>
           </ul>
           <p>
-            For more information about how Google AdSense collects and uses data, please review Google&rsquo;s Privacy Policy and AdSense Terms.
+            For more information about how these services collect and use data, please review their respective privacy policies.
           </p>
 
           <h2>7. Third-Party Links</h2>

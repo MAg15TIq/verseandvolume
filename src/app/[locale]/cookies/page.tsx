@@ -71,26 +71,16 @@ export default function CookiePolicyPage() {
             <li><strong>User behavior analysis:</strong> Helps us improve website functionality</li>
           </ul>
 
-          <h3>3.4 Advertising Cookies</h3>
+          <h2>4. Third-Party Services</h2>
           <p>
-            These cookies are used to make advertising messages more relevant to you. They perform functions like preventing the same ad from continuously reappearing, ensuring that ads are properly displayed, and in some cases selecting advertisements that are based on your interests.
+            We use third-party services that may set their own cookies to provide functionality and improve our website performance.
+          </p>
+          <p>
+            <strong>Third-party services we use include:</strong>
           </p>
           <ul>
-            <li><strong>Google AdSense:</strong> Serves personalized advertisements based on your browsing behavior</li>
-            <li><strong>Doubleclick:</strong> Google&rsquo;s advertising platform for targeting and measuring ad effectiveness</li>
-            <li><strong>Advertising ID cookies:</strong> Used to build a profile of your interests and show relevant ads</li>
-          </ul>
-
-          <h2>4. Google AdSense Cookies</h2>
-          <p>
-            We use Google AdSense to display advertisements on our website. Google AdSense uses cookies to serve ads based on your prior visits to our website or other websites. Google&rsquo;s use of advertising cookies enables it and its partners to serve ads to you based on your visit to our site and/or other sites on the Internet.
-          </p>
-          <p>
-            <strong>Specific Google AdSense cookies include:</strong>
-          </p>
-          <ul>
-            <li><strong>_gads:</strong> Used to measure interactions with ads and prevent the same ads from being shown repeatedly</li>
-            <li><strong>_gac_:</strong> Contains campaign-related information for the user</li>
+            <li><strong>Google Analytics:</strong> Helps us understand how visitors interact with our website</li>
+            <li><strong>Grow by MediaVine:</strong> Provides website optimization and performance features</li>
             <li><strong>IDE:</strong> Used by Google DoubleClick to register and report website user actions after viewing or clicking ads</li>
             <li><strong>test_cookie:</strong> Used to check if the user&rsquo;s browser supports cookies</li>
           </ul>

@@ -62,22 +62,19 @@ export default function PrivacyPage() {
             <li>To personalize your experience</li>
           </ul>
 
-          <h2>3. Google AdSense and Advertising</h2>
+          <h2>3. Website Analytics</h2>
           <p>
-            We use Google AdSense to display advertisements on our website. Google AdSense uses cookies and other tracking technologies to serve ads based on your prior visits to our website or other websites. Google&rsquo;s use of advertising cookies enables it and its partners to serve ads to you based on your visit to our site and/or other sites on the Internet.
+            We use Google Analytics to understand how visitors interact with our website. This helps us improve our content and user experience. Google Analytics uses cookies and other tracking technologies to collect information about your usage patterns.
           </p>
           <p>
-            <strong>Google AdSense Data Collection:</strong>
+            <strong>Google Analytics Data Collection:</strong>
           </p>
           <ul>
-            <li>Google may collect and use data about your visits to this and other websites to provide targeted advertisements</li>
-            <li>Google uses cookies to track user interactions and serve personalized ads</li>
+            <li>Google Analytics collects data about your visits to help us understand website usage patterns</li>
+            <li>This includes pages visited, time spent on site, and general demographic information</li>
             <li>Data collected may include your IP address, browser type, device information, and browsing behavior</li>
-            <li>Google may share this data with advertising partners and other third parties</li>
+            <li>This data helps us understand how visitors use our website and improve user experience</li>
           </ul>
-          <p>
-            You may opt out of personalized advertising by visiting <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener noreferrer" className="text-paper-700 dark:text-paper-300 hover:text-paper-900 dark:hover:text-paper-100">Google&rsquo;s Ads Settings</a> or by visiting <a href="http://www.aboutads.info/choices/" target="_blank" rel="noopener noreferrer" className="text-paper-700 dark:text-paper-300 hover:text-paper-900 dark:hover:text-paper-100">www.aboutads.info</a>.
-          </p>
 
           <h2>4. Cookies and Tracking Technologies</h2>
           <p>
@@ -93,8 +90,7 @@ export default function PrivacyPage() {
             <li><strong>Essential Cookies:</strong> Necessary for the website to function properly</li>
             <li><strong>Preference Cookies:</strong> Allow the website to remember choices you make (such as dark mode preference)</li>
             <li><strong>Analytics Cookies:</strong> Help us understand how visitors interact with our website</li>
-            <li><strong>Advertising Cookies:</strong> Used by Google AdSense and other advertising partners to serve relevant ads</li>
-            <li><strong>Third-Party Cookies:</strong> Set by external services like Google AdSense for advertising purposes</li>
+            <li><strong>Third-Party Cookies:</strong> Set by external services like Google Analytics for website analytics</li>
           </ul>
           <p>
             For more detailed information about our cookie usage, please see our <Link href={`/${locale}/cookies`} className="text-paper-700 dark:text-paper-300 hover:text-paper-900 dark:hover:text-paper-100">Cookie Policy</Link>.

@@ -72,19 +72,19 @@ export default function DisclaimerPage() {
             <li>Warrant that external links will remain active or accessible</li>
           </ul>
 
-          <h2>6. Advertising Disclaimer</h2>
+          <h2>6. Third-Party Services Disclaimer</h2>
           <p>
-            This website displays advertisements through Google AdSense and other advertising partners. Please note:
+            This website uses third-party services to enhance functionality and user experience. Please note:
           </p>
           <ul>
-            <li>Advertisements are provided by third-party advertisers</li>
-            <li>We do not endorse or guarantee any products or services advertised</li>
-            <li>Advertisement content is not reviewed or approved by Verse & Volume</li>
-            <li>We may receive compensation when you interact with advertisements</li>
-            <li>Clicking on advertisements is at your own risk</li>
+            <li>Third-party services are provided by external companies</li>
+            <li>We do not endorse or guarantee the functionality or reliability of third-party services</li>
+            <li>Third-party service content and functionality is not reviewed or approved by Verse & Volume</li>
+            <li>We may receive benefits from third-party service partnerships</li>
+            <li>Using third-party services is at your own risk</li>
           </ul>
           <p>
-            We are not responsible for any transactions, disputes, or issues arising from your interaction with advertisements or advertised products/services.
+            We are not responsible for any issues, disputes, or problems arising from your interaction with third-party services.
           </p>
 
           <h2>7. Technical Disclaimer</h2>

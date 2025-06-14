@@ -73,7 +73,7 @@ Successfully integrated Grow by MediaVine script for website monetization across
 ### 3. Error Handling
 - Includes window.growMe initialization check
 - Graceful fallback if script fails to load
-- No conflicts with existing scripts (Google Analytics, AdSense)
+- No conflicts with existing scripts (Google Analytics)
 
 ## Integration Pattern
 
