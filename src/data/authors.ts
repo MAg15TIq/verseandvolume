@@ -2042,6 +2042,472 @@ export const authors: Author[] = [
     ]
   },
   {
+    id: 'gabriel-garcia-marquez',
+    name: 'Gabriel García Márquez',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Gabriel_Garcia_Marquez.jpg/330px-Gabriel_Garcia_Marquez.jpg',
+    birthYear: 1927,
+    deathYear: 2014,
+    birthPlace: 'Aracataca, Colombia',
+    bio: 'Gabriel José de la Concordia García Márquez was a Colombian novelist, short-story writer, screenwriter, and journalist, known affectionately as Gabo or Gabito throughout Latin America. Considered one of the most significant authors of the 20th century, particularly in the Spanish language, he was awarded the 1972 Neustadt International Prize for Literature and the 1982 Nobel Prize in Literature. García Márquez started as a journalist and wrote many acclaimed non-fiction works and short stories, but is best known for his novels, such as One Hundred Years of Solitude (1967), The Autumn of the Patriarch (1975), and Love in the Time of Cholera (1985). His works have achieved significant critical acclaim and widespread commercial success, most notably for popularizing a literary style known as magic realism, which uses magical elements and events in otherwise ordinary and realistic situations. Some of his works are set in the fictional village of Macondo (mainly inspired by his birthplace, Aracataca), and most of them explore the theme of solitude.',
+    language: 'en',
+    works: [
+      {
+        id: 'one-hundred-years-of-solitude',
+        title: 'One Hundred Years of Solitude',
+        year: 1967,
+        type: 'prose'
+      },
+      {
+        id: 'love-in-the-time-of-cholera',
+        title: 'Love in the Time of Cholera',
+        year: 1985,
+        type: 'prose'
+      },
+      {
+        id: 'chronicle-of-a-death-foretold',
+        title: 'Chronicle of a Death Foretold',
+        year: 1981,
+        type: 'prose'
+      },
+      {
+        id: 'the-autumn-of-the-patriarch',
+        title: 'The Autumn of the Patriarch',
+        year: 1975,
+        type: 'prose'
+      },
+      {
+        id: 'no-one-writes-to-the-colonel',
+        title: 'No One Writes to the Colonel',
+        year: 1961,
+        type: 'prose'
+      }
+    ],
+    quote: 'What matters in life is not what happens to you but what you remember and how you remember it.',
+    achievements: [
+      'Nobel Prize in Literature (1982)',
+      'Neustadt International Prize for Literature (1972)',
+      'French Legion of Honour (1981)',
+      'His novel "One Hundred Years of Solitude" has sold more than 30 million copies worldwide'
+    ],
+    influences: [
+      'William Faulkner',
+      'Ernest Hemingway',
+      'Virginia Woolf',
+      'Franz Kafka',
+      'Latin American folklore'
+    ],
+    timeline: [
+      { year: 1927, event: 'Born in Aracataca, Colombia' },
+      { year: 1947, event: 'Began career as a journalist in Cartagena' },
+      { year: 1955, event: 'Published his first novella, "Leaf Storm"' },
+      { year: 1958, event: 'Married Mercedes Barcha' },
+      { year: 1961, event: 'Published "No One Writes to the Colonel"' },
+      { year: 1967, event: 'Published "One Hundred Years of Solitude"' },
+      { year: 1975, event: 'Published "The Autumn of the Patriarch"' },
+      { year: 1981, event: 'Fled Colombia for Mexico after being accused of sympathizing with M-19 guerrillas' },
+      { year: 1982, event: 'Awarded the Nobel Prize in Literature' },
+      { year: 1985, event: 'Published "Love in the Time of Cholera"' },
+      { year: 2014, event: 'Died in Mexico City, Mexico' }
+    ]
+  },
+  {
+    id: 'marina-tsvetaeva',
+    name: 'Marina Tsvetaeva',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Marina_Tsvetaeva_1911.jpg/330px-Marina_Tsvetaeva_1911.jpg',
+    birthYear: 1892,
+    deathYear: 1941,
+    birthPlace: 'Moscow, Russian Empire',
+    bio: 'Marina Ivanovna Tsvetaeva was a Russian and Soviet poet. Her work is considered among the greatest in twentieth century Russian literature. She lived through and wrote of the Russian Revolution of 1917 and the Moscow famine that followed it. In an attempt to save her daughter Irina from starvation, she placed her in a state orphanage in 1919, where she died of hunger. Tsvetaeva left Russia in 1922 and lived with her family in increasing poverty in Paris, Berlin and Prague before returning to Moscow in 1939. Her husband Sergei Efron and her daughter Ariadna Efron (Alya) were arrested on espionage charges in 1941; and her husband was executed. Tsvetaeva committed suicide in 1941. As a lyrical poet, her passion and daring linguistic experimentation mark her as a striking chronicler of her times and the depths of the human condition.',
+    language: 'en',
+    works: [
+      {
+        id: 'mileposts',
+        title: 'Mileposts',
+        year: 1916,
+        type: 'poetry'
+      },
+      {
+        id: 'the-swans-encampment',
+        title: 'The Swans\' Encampment',
+        year: 1917,
+        type: 'poetry'
+      },
+      {
+        id: 'craft',
+        title: 'Craft',
+        year: 1923,
+        type: 'poetry'
+      },
+      {
+        id: 'after-russia',
+        title: 'After Russia',
+        year: 1928,
+        type: 'poetry'
+      },
+      {
+        id: 'poem-of-the-end',
+        title: 'Poem of the End',
+        year: 1924,
+        type: 'poetry'
+      }
+    ],
+    quote: 'In this most Christian of worlds, all poets are Jews.',
+    achievements: [
+      'Recognized as one of the greatest Russian poets of the 20th century',
+      'Her work has been translated into many languages',
+      'Influenced generations of Russian and international poets'
+    ],
+    influences: [
+      'Alexander Pushkin',
+      'Alexander Blok',
+      'Rainer Maria Rilke',
+      'German Romanticism',
+      'Russian folklore'
+    ],
+    timeline: [
+      { year: 1892, event: 'Born in Moscow, Russian Empire' },
+      { year: 1910, event: 'Published her first collection of poems, "Evening Album"' },
+      { year: 1912, event: 'Married Sergei Efron' },
+      { year: 1917, event: 'Witnessed the Russian Revolution' },
+      { year: 1919, event: 'Daughter Irina died of starvation in a state orphanage' },
+      { year: 1922, event: 'Emigrated from Soviet Russia to Berlin, then Prague' },
+      { year: 1925, event: 'Moved to Paris' },
+      { year: 1939, event: 'Returned to Soviet Union' },
+      { year: 1941, event: 'Husband executed on espionage charges' },
+      { year: 1941, event: 'Committed suicide in Yelabuga, Tatar ASSR' }
+    ]
+  },
+  {
+    id: 'bulleh-shah',
+    name: 'Bulleh Shah',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Bulleh_Shah.jpg/330px-Bulleh_Shah.jpg',
+    birthYear: 1680,
+    deathYear: 1757,
+    birthPlace: 'Uch, Mughal Empire (present-day Pakistan)',
+    bio: 'Bulleh Shah was a Punjabi Islamic philosopher and Sufi poet. His first spiritual teacher was Shah Inayat Qadiri, a Sufi murshid of Lahore. Bulleh Shah practiced the Sufi tradition of Punjabi poetry established by poets like Shah Hussain, Sultan Bahu, and others. His lifespan overlapped with the Mughal Emperor Aurangzeb and the rise of the Sikh leader Ranjit Singh. Bulleh Shah\'s writings represent him as a humanist, with a strong sense of perseverance for the struggles of the poor. Many people have put his kafis to music, from humble street-singers to renowned Sufi singers like Nusrat Fateh Ali Khan, Pathanay Khan, Abida Parveen, Wadali Brothers, Sain Zahoor and Arieb Azhar. His poetry and philosophy strongly criticize Islamic religious orthodoxy of his day.',
+    language: 'ur',
+    works: [
+      {
+        id: 'bullah-ki-jaana-main-kaun',
+        title: 'Bullah Ki Jaana Main Kaun',
+        type: 'poetry'
+      },
+      {
+        id: 'ilmon-bas-kareen-o-yaar',
+        title: 'Ilmon Bas Kareen O Yaar',
+        type: 'poetry'
+      },
+      {
+        id: 'gharyali-diyan-gharyalian',
+        title: 'Gharyali Diyan Gharyalian',
+        type: 'poetry'
+      },
+      {
+        id: 'ki-jana-main-kaun',
+        title: 'Ki Jana Main Kaun',
+        type: 'poetry'
+      },
+      {
+        id: 'bulleh-shah-kafis',
+        title: 'Kafis of Bulleh Shah',
+        type: 'poetry'
+      }
+    ],
+    quote: 'Remove duality and do away with all disputes; The Hindus and Muslims are not other than He.',
+    achievements: [
+      'One of the most revered Sufi poets of the Punjab region',
+      'His works have been translated into numerous languages',
+      'His poetry continues to be sung and recited across South Asia',
+      'Influenced generations of spiritual seekers and poets'
+    ],
+    influences: [
+      'Sufism',
+      'Islamic mysticism',
+      'Punjabi folk traditions',
+      'Shah Inayat Qadiri',
+      'Bhakti movement'
+    ],
+    timeline: [
+      { year: 1680, event: 'Born in Uch, Mughal Empire (present-day Pakistan)' },
+      { year: 1707, event: 'Became a disciple of Shah Inayat Qadiri' },
+      { year: 1729, event: 'Death of his spiritual master Shah Inayat' },
+      { year: 1730, event: 'Began writing poetry expressing his spiritual philosophy' },
+      { year: 1757, event: 'Died in Kasur, Punjab (present-day Pakistan)' }
+    ]
+  },
+  {
+    id: 'pablo-neruda',
+    name: 'Pablo Neruda',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Pablo_Neruda_1963.jpg/330px-Pablo_Neruda_1963.jpg',
+    birthYear: 1904,
+    deathYear: 1973,
+    birthPlace: 'Parral, Chile',
+    bio: 'Pablo Neruda was a Chilean poet-diplomat and politician who won the Nobel Prize for Literature in 1971. Neruda became known as a poet when he was 13 years old, and wrote in a variety of styles, including surrealist poems, historical epics, overtly political manifestos, a prose autobiography, and passionate love poems such as the ones in his collection Twenty Love Poems and a Song of Despair (1924). Neruda occupied many diplomatic positions in various countries during his lifetime and served a term as a Senator for the Chilean Communist Party. When President Gabriel González Videla outlawed communism in Chile in 1948, a warrant was issued for Neruda\'s arrest. Friends hid him for months in the basement of a house in the port city of Valparaíso, and he later escaped through a mountain pass near Maihue Lake into Argentina. The Colombian novelist Gabriel García Márquez once called Neruda "the greatest poet of the 20th century in any language."',
+    language: 'en',
+    works: [
+      {
+        id: 'twenty-love-poems',
+        title: 'Twenty Love Poems and a Song of Despair',
+        year: 1924,
+        type: 'poetry'
+      },
+      {
+        id: 'residence-on-earth',
+        title: 'Residence on Earth',
+        year: 1933,
+        type: 'poetry'
+      },
+      {
+        id: 'canto-general',
+        title: 'Canto General',
+        year: 1950,
+        type: 'poetry'
+      },
+      {
+        id: 'elemental-odes',
+        title: 'Elemental Odes',
+        year: 1954,
+        type: 'poetry'
+      },
+      {
+        id: 'memoirs',
+        title: 'Memoirs',
+        year: 1974,
+        type: 'prose'
+      }
+    ],
+    quote: 'You can cut all the flowers but you cannot keep spring from coming.',
+    achievements: [
+      'Nobel Prize in Literature (1971)',
+      'International Peace Prize (1950)',
+      'Honorary Doctorate from Oxford University (1965)',
+      'Chilean Senator (1945-1948)'
+    ],
+    influences: [
+      'Walt Whitman',
+      'Federico García Lorca',
+      'Arthur Rimbaud',
+      'Marxism',
+      'Latin American culture'
+    ],
+    timeline: [
+      { year: 1904, event: 'Born as Ricardo Eliécer Neftalí Reyes Basoalto in Parral, Chile' },
+      { year: 1920, event: 'Adopted the pen name Pablo Neruda' },
+      { year: 1924, event: 'Published "Twenty Love Poems and a Song of Despair"' },
+      { year: 1927, event: 'Began diplomatic career as consul in Rangoon, Burma' },
+      { year: 1934, event: 'Appointed consul in Barcelona, Spain' },
+      { year: 1945, event: 'Elected Senator of the Republic of Chile' },
+      { year: 1948, event: 'Forced into exile after criticizing President González Videla' },
+      { year: 1952, event: 'Returned to Chile after exile' },
+      { year: 1971, event: 'Awarded the Nobel Prize for Literature' },
+      { year: 1973, event: 'Died in Santiago, Chile, shortly after the coup d\'état led by Augusto Pinochet' }
+    ]
+  },
+  {
+    id: 'leo-tolstoy',
+    name: 'Leo Tolstoy',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/L.N.Tolstoy_Prokudin-Gorsky.jpg/330px-L.N.Tolstoy_Prokudin-Gorsky.jpg',
+    birthYear: 1828,
+    deathYear: 1910,
+    birthPlace: 'Yasnaya Polyana, Russian Empire',
+    bio: 'Count Lev Nikolayevich Tolstoy, usually referred to in English as Leo Tolstoy, was a Russian writer who is regarded as one of the greatest authors of all time. He received nominations for the Nobel Prize in Literature every year from 1902 to 1906 and for the Nobel Peace Prize in 1901, 1902, and 1909. Born to an aristocratic Russian family in 1828, Tolstoy is best known for the novels War and Peace (1869) and Anna Karenina (1878), often cited as pinnacles of realist fiction. He first achieved literary acclaim in his twenties with his semi-autobiographical trilogy, Childhood, Boyhood, and Youth, and Sevastopol Sketches, based upon his experiences in the Crimean War. His fiction includes dozens of short stories and several novellas such as The Death of Ivan Ilyich, Family Happiness, and Hadji Murad. He also wrote plays and numerous philosophical essays. In the 1870s, Tolstoy experienced a profound moral crisis, followed by what he regarded as an equally profound spiritual awakening, as outlined in his non-fiction work A Confession. His literal interpretation of the ethical teachings of Jesus, centering on the Sermon on the Mount, caused him to become a fervent Christian anarchist and pacifist. His ideas on nonviolent resistance, expressed in such works as The Kingdom of God Is Within You, had a profound impact on such pivotal 20th-century figures as Mahatma Gandhi and Martin Luther King Jr.',
+    language: 'en',
+    works: [
+      {
+        id: 'war-and-peace',
+        title: 'War and Peace',
+        year: 1869,
+        type: 'prose'
+      },
+      {
+        id: 'anna-karenina',
+        title: 'Anna Karenina',
+        year: 1878,
+        type: 'prose'
+      },
+      {
+        id: 'the-death-of-ivan-ilyich',
+        title: 'The Death of Ivan Ilyich',
+        year: 1886,
+        type: 'prose'
+      },
+      {
+        id: 'resurrection',
+        title: 'Resurrection',
+        year: 1899,
+        type: 'prose'
+      },
+      {
+        id: 'the-kingdom-of-god-is-within-you',
+        title: 'The Kingdom of God Is Within You',
+        year: 1894,
+        type: 'prose'
+      }
+    ],
+    quote: 'Everyone thinks of changing the world, but no one thinks of changing himself.',
+    achievements: [
+      'Considered one of the greatest novelists of all time',
+      'Nominated multiple times for Nobel Prizes in Literature and Peace',
+      'His works have been translated into dozens of languages',
+      'Influenced numerous writers, thinkers, and political leaders'
+    ],
+    influences: [
+      'Jean-Jacques Rousseau',
+      'Arthur Schopenhauer',
+      'Christianity',
+      'Eastern philosophy',
+      'Russian folk tales'
+    ],
+    timeline: [
+      { year: 1828, event: 'Born at Yasnaya Polyana, Russian Empire' },
+      { year: 1851, event: 'Joined the army and served in the Caucasus' },
+      { year: 1854, event: 'Served in the Crimean War' },
+      { year: 1857, event: 'First traveled abroad to Europe' },
+      { year: 1862, event: 'Married Sophia Behrs' },
+      { year: 1869, event: 'Published "War and Peace"' },
+      { year: 1878, event: 'Published "Anna Karenina"' },
+      { year: 1879, event: 'Experienced spiritual crisis and conversion' },
+      { year: 1894, event: 'Published "The Kingdom of God Is Within You"' },
+      { year: 1901, event: 'Excommunicated from the Russian Orthodox Church' },
+      { year: 1910, event: 'Left home at age 82 and died at Astapovo railway station' }
+    ]
+  },
+  {
+    id: 'abdullah-hussein',
+    name: 'Abdullah Hussein',
+    image: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9c/Abdullah_Hussein.jpg/330px-Abdullah_Hussein.jpg',
+    birthYear: 1931,
+    deathYear: 2015,
+    birthPlace: 'Rawalpindi, British India (now Pakistan)',
+    bio: 'Abdullah Hussein (Urdu: عبداللہ حسین), born Mohammed Khan, was a Pakistani novelist and screenwriter. He is best known for his novel Udaas Naslein (The Weary Generations), which won the Adamjee Award in 1963. The novel depicts the lives of ordinary people during the British Raj and the early years of Pakistan\'s independence. Hussein was a reclusive writer who spent much of his life in the UK, working as a chemical engineer. He wrote in both Urdu and English, and translated his own works between the two languages. His other notable works include the novels Baagh (The Garden) and Qaid (Captivity), and the short story collection Nashaib (Descent). His writing style is characterized by its realism, psychological depth, and social commentary. Hussein\'s work has been compared to that of European modernists like James Joyce and Virginia Woolf for its stream-of-consciousness technique and exploration of inner lives.',
+    language: 'ur',
+    works: [
+      {
+        id: 'udaas-naslein',
+        title: 'Udaas Naslein (The Weary Generations)',
+        year: 1963,
+        type: 'prose'
+      },
+      {
+        id: 'baagh',
+        title: 'Baagh (The Garden)',
+        year: 1982,
+        type: 'prose'
+      },
+      {
+        id: 'qaid',
+        title: 'Qaid (Captivity)',
+        year: 1989,
+        type: 'prose'
+      },
+      {
+        id: 'nashaib',
+        title: 'Nashaib (Descent)',
+        year: 1995,
+        type: 'prose'
+      },
+      {
+        id: 'emigre-journeys',
+        title: 'Émigré Journeys',
+        year: 2000,
+        type: 'prose'
+      }
+    ],
+    quote: 'Literature is not created in a vacuum. It is the outcome of a society\'s collective experience.',
+    achievements: [
+      'Adamjee Award for Udaas Naslein (1963)',
+      'Prime Minister\'s Award for Literature (1970)',
+      'Sitara-i-Imtiaz (Star of Excellence) awarded by the Government of Pakistan',
+      'His novel Udaas Naslein is considered a classic of Urdu literature'
+    ],
+    influences: [
+      'James Joyce',
+      'Virginia Woolf',
+      'Fyodor Dostoevsky',
+      'Partition of India',
+      'Colonial and post-colonial Pakistani society'
+    ],
+    timeline: [
+      { year: 1931, event: 'Born in Rawalpindi, British India (now Pakistan)' },
+      { year: 1951, event: 'Graduated with a degree in chemical engineering' },
+      { year: 1963, event: 'Published Udaas Naslein (The Weary Generations)' },
+      { year: 1968, event: 'Moved to the United Kingdom' },
+      { year: 1982, event: 'Published Baagh (The Garden)' },
+      { year: 1993, event: 'Translated Udaas Naslein into English as The Weary Generations' },
+      { year: 2000, event: 'Published Émigré Journeys in English' },
+      { year: 2015, event: 'Died in Lahore, Pakistan' }
+    ]
+  },
+  {
+    id: 'virginia-woolf',
+    name: 'Virginia Woolf',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/George_Charles_Beresford_-_Virginia_Woolf_in_1902_-_Restoration.jpg/330px-George_Charles_Beresford_-_Virginia_Woolf_in_1902_-_Restoration.jpg',
+    birthYear: 1882,
+    deathYear: 1941,
+    birthPlace: 'London, England',
+    bio: 'Adeline Virginia Woolf was an English writer, considered one of the most important modernist 20th-century authors and a pioneer in the use of stream of consciousness as a narrative device. Woolf was born into an affluent household in South Kensington, London, the seventh child in a blended family of eight. Her father, Sir Leslie Stephen, was a notable historian, author, critic and mountaineer. Her mother, Julia Prinsep Stephen, was a renowned beauty and niece of the photographer Julia Margaret Cameron. Woolf was educated by her parents in their literate and well-connected household. Her parents\' circle of friends included literary and artistic luminaries like Henry James, George Eliot, and James Russell Lowell. Despite her extensive education, Woolf was prevented from attending university, a source of lifelong resentment. Woolf\'s most famous works include the novels Mrs Dalloway (1925), To the Lighthouse (1927), and Orlando (1928), and the book-length essay A Room of One\'s Own (1929). The latter contains her famous dictum, "A woman must have money and a room of her own if she is to write fiction." Woolf suffered from severe bouts of mental illness throughout her life, now believed to have been bipolar disorder, and committed suicide by drowning in 1941 at the age of 59.',
+    language: 'en',
+    works: [
+      {
+        id: 'mrs-dalloway',
+        title: 'Mrs Dalloway',
+        year: 1925,
+        type: 'prose'
+      },
+      {
+        id: 'to-the-lighthouse',
+        title: 'To the Lighthouse',
+        year: 1927,
+        type: 'prose'
+      },
+      {
+        id: 'orlando',
+        title: 'Orlando: A Biography',
+        year: 1928,
+        type: 'prose'
+      },
+      {
+        id: 'a-room-of-ones-own',
+        title: 'A Room of One\'s Own',
+        year: 1929,
+        type: 'prose'
+      },
+      {
+        id: 'the-waves',
+        title: 'The Waves',
+        year: 1931,
+        type: 'prose'
+      }
+    ],
+    quote: 'A woman must have money and a room of her own if she is to write fiction.',
+    achievements: [
+      'Pioneered the stream-of-consciousness literary technique',
+      'Founding member of the Bloomsbury Group',
+      'Her works have been translated into more than 50 languages',
+      'Considered one of the greatest novelists of the 20th century'
+    ],
+    influences: [
+      'Marcel Proust',
+      'James Joyce',
+      'Greek classical literature',
+      'Feminism',
+      'Modernism'
+    ],
+    timeline: [
+      { year: 1882, event: 'Born in London, England' },
+      { year: 1895, event: 'Death of her mother, leading to her first mental breakdown' },
+      { year: 1904, event: 'Death of her father, Sir Leslie Stephen' },
+      { year: 1905, event: 'Began writing for The Times Literary Supplement' },
+      { year: 1912, event: 'Married Leonard Woolf' },
+      { year: 1917, event: 'Founded Hogarth Press with her husband' },
+      { year: 1922, event: 'Met Vita Sackville-West, who became her lover' },
+      { year: 1925, event: 'Published Mrs Dalloway' },
+      { year: 1927, event: 'Published To the Lighthouse' },
+      { year: 1929, event: 'Published A Room of One\'s Own' },
+      { year: 1941, event: 'Committed suicide by drowning in the River Ouse, Sussex' }
+    ]
+  },
+  {
     id: 'william-shakespeare',
     name: 'William Shakespeare',
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Shakespeare.jpg/330px-Shakespeare.jpg',
@@ -2774,6 +3240,183 @@ export const authors: Author[] = [
       { year: 2004, event: 'The Notebook adapted into successful film' },
       { year: 2006, event: 'Published "Dear John"' },
       { year: 2010, event: 'Published "Safe Haven"' }
+    ]
+  },
+  {
+    id: 'maya-angelou',
+    name: 'Maya Angelou',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Angelou_at_Clinton_inauguration.jpg/800px-Angelou_at_Clinton_inauguration.jpg',
+    birthYear: 1928,
+    deathYear: 2014,
+    birthPlace: 'St. Louis, Missouri, USA',
+    bio: 'Maya Angelou was an American poet, memoirist, and civil rights activist. She published seven autobiographies, three books of essays, several books of poetry, and is credited with a list of plays, movies, and television shows spanning over 50 years. She received dozens of awards and more than 50 honorary degrees. Angelou is best known for her series of seven autobiographies, which focus on her childhood and early adult experiences. The first, "I Know Why the Caged Bird Sings" (1969), tells of her life up to the age of 17 and brought her international recognition and acclaim. Her poetry collections include "Just Give Me a Cool Drink of Water \'fore I Diiie" (1971), "And Still I Rise" (1978), and "Shaker, Why Don\'t You Sing?" (1983). Angelou\'s work is characterized by its powerful themes of identity, family, and racism, and her distinctive style that combines autobiography with poetry.',
+    language: 'en',
+    works: [
+      {
+        id: 'i-know-why-the-caged-bird-sings',
+        title: 'I Know Why the Caged Bird Sings',
+        year: 1969,
+        type: 'prose'
+      },
+      {
+        id: 'and-still-i-rise',
+        title: 'And Still I Rise',
+        year: 1978,
+        type: 'poetry'
+      },
+      {
+        id: 'just-give-me-a-cool-drink',
+        title: 'Just Give Me a Cool Drink of Water \'fore I Diiie',
+        year: 1971,
+        type: 'poetry'
+      },
+      {
+        id: 'shaker-why-dont-you-sing',
+        title: 'Shaker, Why Don\'t You Sing?',
+        year: 1983,
+        type: 'poetry'
+      }
+    ],
+    quote: 'I\'ve learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.',
+    achievements: [
+      'Presidential Medal of Freedom (2011)',
+      'National Medal of Arts (2000)',
+      'Three Grammy Awards for spoken word albums',
+      'Over 50 honorary degrees',
+      'Recited "On the Pulse of Morning" at Bill Clinton\'s 1993 inauguration'
+    ],
+    influences: [
+      'Langston Hughes',
+      'James Baldwin',
+      'Paul Laurence Dunbar',
+      'African American oral tradition',
+      'Gospel music and spirituals'
+    ],
+    timeline: [
+      { year: 1928, event: 'Born Marguerite Annie Johnson in St. Louis, Missouri' },
+      { year: 1940, event: 'Moved to San Francisco with her mother' },
+      { year: 1944, event: 'Became the first Black female streetcar conductor in San Francisco' },
+      { year: 1951, event: 'Married Tosh Angelos (took the name Angelou)' },
+      { year: 1954, event: 'Toured Europe with "Porgy and Bess"' },
+      { year: 1960, event: 'Moved to Cairo, Egypt, and worked as editor' },
+      { year: 1961, event: 'Moved to Ghana and worked at University of Ghana' },
+      { year: 1969, event: 'Published "I Know Why the Caged Bird Sings"' },
+      { year: 1971, event: 'Published first poetry collection' },
+      { year: 1978, event: 'Published "And Still I Rise"' },
+      { year: 1993, event: 'Recited poem at Bill Clinton\'s inauguration' },
+      { year: 2011, event: 'Awarded Presidential Medal of Freedom' },
+      { year: 2014, event: 'Died in Winston-Salem, North Carolina at age 86' }
+    ]
+  },
+  {
+    id: 'amanda-gorman',
+    name: 'Amanda Gorman',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Amanda_Gorman_2021.jpg/800px-Amanda_Gorman_2021.jpg',
+    birthYear: 1998,
+    birthPlace: 'Los Angeles, California, USA',
+    bio: 'Amanda Gorman is an American poet and activist. Her work focuses on issues of oppression, feminism, race, and marginalization, as well as the African diaspora. Gorman was the first person to be named National Youth Poet Laureate. She published the poetry book "The One for Whom Food Is Not Enough" in 2015. She rose to international prominence when she read her poem "The Hill We Climb" at the inauguration of U.S. President Joe Biden in 2021. Gorman\'s poetry has been published in The New York Times, The New Yorker, The Wall Street Journal, The Washington Post, Vogue, and Elle. She has performed at the Library of Congress, Lincoln Center, and the United Nations. Gorman has received numerous honors and awards, including being named one of Glamour magazine\'s College Women of the Year and being featured in Forbes\' 30 Under 30 list.',
+    language: 'en',
+    works: [
+      {
+        id: 'the-hill-we-climb',
+        title: 'The Hill We Climb',
+        year: 2021,
+        type: 'poetry'
+      },
+      {
+        id: 'the-one-for-whom-food-is-not-enough',
+        title: 'The One for Whom Food Is Not Enough',
+        year: 2015,
+        type: 'poetry'
+      },
+      {
+        id: 'change-sings',
+        title: 'Change Sings: A Children\'s Anthem',
+        year: 2021,
+        type: 'poetry'
+      },
+      {
+        id: 'call-us-what-we-carry',
+        title: 'Call Us What We Carry',
+        year: 2021,
+        type: 'poetry'
+      }
+    ],
+    quote: 'For there is always light, if only we\'re brave enough to see it. If only we\'re brave enough to be it.',
+    achievements: [
+      'First National Youth Poet Laureate',
+      'Youngest inaugural poet in U.S. history',
+      'Forbes 30 Under 30 (2021)',
+      'Glamour College Women of the Year',
+      'Featured in major publications including The New York Times and Vogue'
+    ],
+    influences: [
+      'Maya Angelou',
+      'Langston Hughes',
+      'Civil rights movement',
+      'Contemporary social justice movements',
+      'Spoken word poetry'
+    ],
+    timeline: [
+      { year: 1998, event: 'Born in Los Angeles, California' },
+      { year: 2014, event: 'Named Youth Poet Laureate of Los Angeles' },
+      { year: 2015, event: 'Published first poetry collection "The One for Whom Food Is Not Enough"' },
+      { year: 2017, event: 'Named first National Youth Poet Laureate' },
+      { year: 2020, event: 'Graduated from Harvard University with a degree in Sociology' },
+      { year: 2021, event: 'Read "The Hill We Climb" at President Biden\'s inauguration' },
+      { year: 2021, event: 'Published children\'s book "Change Sings: A Children\'s Anthem"' },
+      { year: 2021, event: 'Published poetry collection "Call Us What We Carry"' }
+    ]
+  },
+  {
+    id: 'sarah-rivers',
+    name: 'Sarah Rivers',
+    image: 'https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
+    birthYear: 1985,
+    birthPlace: 'Portland, Oregon, USA',
+    bio: 'Sarah Rivers is a contemporary poet whose work explores the intersection of personal reflection and universal human experience. Her poetry is characterized by its gentle wisdom, accessible language, and deep emotional resonance. Rivers draws inspiration from nature, relationships, and the quiet moments of everyday life. Her work has been described as "healing poetry" that speaks to the heart and encourages self-discovery. She believes in the power of words to comfort, inspire, and transform, and her poems often serve as gentle reminders of our shared humanity and inner strength.',
+    language: 'en',
+    works: [
+      {
+        id: 'whispers-of-the-heart',
+        title: 'Whispers of the Heart',
+        year: 2024,
+        type: 'poetry'
+      },
+      {
+        id: 'gentle-moments',
+        title: 'Gentle Moments',
+        year: 2023,
+        type: 'poetry'
+      },
+      {
+        id: 'reflections-in-quiet',
+        title: 'Reflections in Quiet',
+        year: 2022,
+        type: 'poetry'
+      }
+    ],
+    quote: 'The heart remembers what the mind forgets, and in its whispers, pure and clear, you\'ll find the voice you need to hear.',
+    achievements: [
+      'Featured poet in multiple online literary journals',
+      'Her work has been shared widely on social media platforms',
+      'Known for creating accessible poetry that resonates with diverse audiences',
+      'Her poems have been used in meditation and wellness programs'
+    ],
+    influences: [
+      'Mary Oliver',
+      'Rumi',
+      'Contemporary mindfulness literature',
+      'Nature and the natural world',
+      'Personal experiences and relationships'
+    ],
+    timeline: [
+      { year: 1985, event: 'Born in Portland, Oregon' },
+      { year: 2007, event: 'Graduated from University of Oregon with degree in English' },
+      { year: 2010, event: 'Began sharing poetry online' },
+      { year: 2022, event: 'Published first collection "Reflections in Quiet"' },
+      { year: 2023, event: 'Released "Gentle Moments" collection' },
+      { year: 2024, event: 'Wrote "Whispers of the Heart" for Verse and Volume' }
     ]
   }
 ];

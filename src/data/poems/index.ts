@@ -9,6 +9,9 @@ import { alexanderPushkinPoems } from './authors/alexander-pushkin';
 import { robertFrostPoems } from './authors/robert-frost';
 import { pabloNerudaPoems } from './authors/pablo-neruda';
 import { williamShakespearePoems } from './authors/william-shakespeare';
+import { mayaAngelouPoems } from './authors/maya-angelou';
+import { amandaGormanPoems } from './authors/amanda-gorman';
+import { sarahRiversPoems } from './authors/sarah-rivers';
 
 // Main export using the new organized structure
 export const allPoems: Poem[] = allPoemsByAuthor;
@@ -19,5 +22,8 @@ export {
   alexanderPushkinPoems,
   robertFrostPoems,
   pabloNerudaPoems,
-  williamShakespearePoems
+  williamShakespearePoems,
+  mayaAngelouPoems,
+  amandaGormanPoems,
+  sarahRiversPoems
 };
